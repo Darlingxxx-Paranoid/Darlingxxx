@@ -1,0 +1,73 @@
+{
+    "variables": {
+        "b": [
+            {
+                "type": "probability"
+            },
+            {
+                "type2": "probability"
+            }
+        ]
+    },
+    "functions": [
+        {
+            "name": "Two",
+            "param": {},
+            "variables": {
+                "c": [
+                    {
+                        "type": "probability"
+                    },
+                    {
+                        "type2": "probability"
+                    }
+                ]
+            }
+        }
+    ],
+    "classes": [
+        {
+            "name": "A",
+            "functions": {
+                "__init__": {
+                    "name": "__init__",
+                    "param": {
+                        "self": [
+                            {
+                                "type": "probability"
+                            },
+                            {
+                                "type2": "probability"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                },
+                "One": {
+                    "name": "One",
+                    "param": {},
+                    "variables": {
+                        "m": [
+                            {
+                                "type": "probability"
+                            },
+                            {
+                                "type2": "probability"
+                            }
+                        ]
+                    }
+                }
+            },
+            "variables": {
+                "k": [
+                    {
+                        "type": "probability"
+                    },
+                    {
+                        "type2": "probability"
+                    }
+                ]
+            }
+        }
+    ]
+}
