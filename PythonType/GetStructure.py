@@ -5,12 +5,12 @@ class GetStructure():
     def __init__(self):
 
         self.result = {
-            'class' : [],
-            'function' : [],
+            'class' : {},
+            'function' : {},
             'variables' : {}
         }
 
-        self.model = [{'type' : 'probability'}, {'type2' : 'probability'}]
+        self.model = [{'type1' : 'probability'}, {'type2' : 'probability'}, {'type3' : 'probability'}]
 
 
     def get_variable_types(self, node):
@@ -69,8 +69,8 @@ class GetStructure():
 
         data = {
             "variables": {},
-            "functions": [],
-            "classes": []
+            "functions": {},
+            "classes": {}
         }
 
         # 提取全局变量和函数
@@ -78,9 +78,11 @@ class GetStructure():
             if isinstance(node, ast.Assign):
                 data["variables"].update(self.get_variable_types(node))
             elif isinstance(node, ast.FunctionDef):
-                data["functions"].append(self.extract_function_data(node))
+                f = self.extract_function_data(node)
+                data["functions"][f['name']] = f
             elif isinstance(node, ast.ClassDef):
-                data["classes"].append(self.extract_class_data(node))
+                c = self.extract_class_data(node)
+                data["classes"][c['name']] = c
 
         return data
 
@@ -89,9 +91,10 @@ class GetStructure():
         with open(file_path, "w") as json_file:
             json.dump(data, json_file, indent=4)
 
-    def get(self, filepath, outputpath ):
+    def get(self, filepath):
         data = self.extract_variables_and_functions(filepath)
+        return data
+
+    def save(self, srcpath, outputpath):
+        data = self.extract_variables_and_functions(srcpath)
         self.write_to_json(outputpath, data)
-
-
-a = GetStructure().get("example.py", "OutoutStructure.json")

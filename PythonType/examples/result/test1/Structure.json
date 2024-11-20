@@ -1,0 +1,83 @@
+{
+    "variables": {
+        "m": [
+            {
+                "type1": "probability"
+            },
+            {
+                "type2": "probability"
+            },
+            {
+                "type3": "probability"
+            }
+        ]
+    },
+    "functions": {
+        "Two": {
+            "name": "Two",
+            "param": {
+                "d": [
+                    {
+                        "type1": "probability"
+                    },
+                    {
+                        "type2": "probability"
+                    },
+                    {
+                        "type3": "probability"
+                    }
+                ]
+            },
+            "variables": {
+                "c": [
+                    {
+                        "type1": "probability"
+                    },
+                    {
+                        "type2": "probability"
+                    },
+                    {
+                        "type3": "probability"
+                    }
+                ]
+            }
+        }
+    },
+    "classes": {
+        "A": {
+            "name": "A",
+            "functions": {
+                "One": {
+                    "name": "One",
+                    "param": {},
+                    "variables": {
+                        "a": [
+                            {
+                                "type1": "probability"
+                            },
+                            {
+                                "type2": "probability"
+                            },
+                            {
+                                "type3": "probability"
+                            }
+                        ]
+                    }
+                }
+            },
+            "variables": {
+                "b": [
+                    {
+                        "type1": "probability"
+                    },
+                    {
+                        "type2": "probability"
+                    },
+                    {
+                        "type3": "probability"
+                    }
+                ]
+            }
+        }
+    }
+}

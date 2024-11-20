@@ -1,17 +1,10 @@
 import ollama
 import json
+import Prompt
 
 def llamaInfer(filepath : str, outputpath : str):
 
-    llamaPrompt = '''
-For the following Python code, infer the type of all variables, output in json format {variable name : type } \n
-                  '''
-
-    SourceCode = ""
-    with open(filepath, 'r') as src:
-        SourceCode = src.read()
-
-    llamaPrompt += SourceCode
+    llamaPrompt = Prompt.GetPrompt(filepath)
 
     response = ollama.generate(
         model = 'llama3.1',
@@ -27,8 +20,4 @@ For the following Python code, infer the type of all variables, output in json f
         json.dump(result, json_file, indent=4)
 
     return result
-
-
-print(llamaInfer('example.py', 'OutputOllama.json'))
-
     
