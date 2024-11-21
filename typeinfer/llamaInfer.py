@@ -14,7 +14,8 @@ def llamaInfer(filepath : str):
         options = {'temperature':0}
     )
 
-    result = json.loads(response['response'])
+    # result = json.loads(response['response'])
+    result = response['response']
 
   #   with open(outputpath, "w") as json_file:
 
