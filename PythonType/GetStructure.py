@@ -10,7 +10,7 @@ class GetStructure():
             'variables' : {}
         }
 
-        self.model = [{'type1' : 'probability'}, {'type2' : 'probability'}, {'type3' : 'probability'}]
+        self.model = [{'<type>' : '<probability>'}, {'<type>' : '<probability>'}, {'<type>' : '<probability>'}]
 
 
     def get_variable_types(self, node):

@@ -14,7 +14,7 @@ For the following Python code, infer the type of all variables \n
     llamaPrompt += SourceCode
 
     llamaPrompt += '''
-Then fill in all '['type':'probability']' in the following json format to show the result\n
+Then fill in all '{'<type>':'<probability>'}'with the type of the variable and the probability of the type in the following json format.\n
 '''
     
     structure = GetStructure()

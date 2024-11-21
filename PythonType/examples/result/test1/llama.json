@@ -2,13 +2,13 @@
     "variables": {
         "m": [
             {
-                "<type>": "<probability>"
+                "int": "1"
             },
             {
-                "<type>": "<probability>"
+                "float": "0.000001"
             },
             {
-                "<type>": "<probability>"
+                "NoneType": "0"
             }
         ]
     },
@@ -18,26 +18,26 @@
             "param": {
                 "d": [
                     {
-                        "<type>": "<probability>"
+                        "int": "1"
                     },
                     {
-                        "<type>": "<probability>"
+                        "float": "0.000001"
                     },
                     {
-                        "<type>": "<probability>"
+                        "NoneType": "0"
                     }
                 ]
             },
             "variables": {
                 "c": [
                     {
-                        "<type>": "<probability>"
+                        "int": "1"
                     },
                     {
-                        "<type>": "<probability>"
+                        "float": "0.000001"
                     },
                     {
-                        "<type>": "<probability>"
+                        "NoneType": "0"
                     }
                 ]
             }
