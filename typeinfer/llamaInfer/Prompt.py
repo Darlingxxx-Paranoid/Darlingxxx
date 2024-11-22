@@ -1,4 +1,4 @@
-from GetStructure import GetStructure
+from Structure.GetStructure import GetStructure
 
 
 def GetPrompt(filepath):

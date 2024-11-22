@@ -1,6 +1,6 @@
 import ollama
 import json
-import Prompt
+from llamaInfer import Prompt
 import sys
 
 def llamaInfer(filepath : str):

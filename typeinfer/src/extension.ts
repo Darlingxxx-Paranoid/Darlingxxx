@@ -35,11 +35,11 @@ export function activate(context: vscode.ExtensionContext) {
 				const filePath = editor.document.uri.fsPath;
 
 				const pythonPath = 'python';
-				const llamaInferPath = path.join(context.extensionPath, 'llamaInfer.py');
+				const InferPath = path.join(context.extensionPath, 'Infer.py');
 				
 				const result = await new Promise<string>((resolve, reject) => {
 					cp.exec(
-						`${pythonPath} "${llamaInferPath}" "${filePath}"`,
+						`${pythonPath} "${InferPath}" "${filePath}"`,
 						(error, stdout, stderr) => {
 							if (error) {
 								reject(error);
@@ -111,11 +111,11 @@ export function activate(context: vscode.ExtensionContext) {
 		try {
 			await editor.document.save();
 			const pythonPath = 'python';
-			const llamaInferPath = path.join(context.extensionPath, 'llamaInfer.py');
+			const InferPath = path.join(context.extensionPath, 'Infer.py');
 			
 			const result = await new Promise<string>((resolve, reject) => {
 				cp.exec(
-					`${pythonPath} "${llamaInferPath}" "${filePath}"`,
+					`${pythonPath} "${InferPath}" "${filePath}"`,
 					(error, stdout, stderr) => {
 						if (error) {
 							reject(error);
