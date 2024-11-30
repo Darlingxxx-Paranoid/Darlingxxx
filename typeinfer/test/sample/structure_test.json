@@ -1,0 +1,44 @@
+{
+    "variables": {
+        "arr": "List[int]"
+    },
+    "functions": {
+        "main": {
+            "name": "main",
+            "param": {},
+            "variables": {
+                "n": "int",
+                "qs": null,
+                "arr": null
+            }
+        }
+    },
+    "classes": {
+        "QuickSort": {
+            "name": "QuickSort",
+            "functions": {
+                "__init__": {
+                    "name": "__init__",
+                    "param": {
+                        "self": null
+                    },
+                    "variables": {}
+                },
+                "quicksort": {
+                    "name": "quicksort",
+                    "param": {
+                        "self": null,
+                        "arr": "List[int]"
+                    },
+                    "variables": {
+                        "pivot": null,
+                        "left": null,
+                        "middle": "List[int]",
+                        "right": "List[int]"
+                    }
+                }
+            },
+            "variables": {}
+        }
+    }
+}
