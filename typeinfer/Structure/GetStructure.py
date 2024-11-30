@@ -20,6 +20,9 @@ class GetStructure():
             for target in node.targets:
                 if isinstance(target, ast.Name):
                     variables[target.id] = self.model
+        elif isinstance(node, ast.AnnAssign):
+            if isinstance(node.target, ast.Name):
+                variables[node.target.id] = self.model
 
         return variables
 
@@ -39,7 +42,7 @@ class GetStructure():
         # 获取局部变量
         # function_data["variables"] = self.get_variable_types(func_node)
         for item in func_node.body:
-            if isinstance(item, ast.Assign):
+            if isinstance(item, ast.Assign) or isinstance(item, ast.AnnAssign):
                 function_data['variables'].update(self.get_variable_types(item))
 
         return function_data
@@ -57,7 +60,7 @@ class GetStructure():
         for item in class_node.body:
             if isinstance(item, ast.FunctionDef):
                 class_data["functions"][item.name] = self.extract_function_data(item)
-            elif isinstance(item, ast.Assign):
+            elif isinstance(item, ast.Assign) or isinstance(item, ast.AnnAssign):
                 class_data["variables"].update(self.get_variable_types(item))
 
         return class_data
@@ -75,7 +78,7 @@ class GetStructure():
 
         # 提取全局变量和函数
         for node in tree.body:
-            if isinstance(node, ast.Assign):
+            if isinstance(node, ast.Assign) or isinstance(node, ast.AnnAssign):
                 data["variables"].update(self.get_variable_types(node))
             elif isinstance(node, ast.FunctionDef):
                 f = self.extract_function_data(node)
@@ -98,3 +101,7 @@ class GetStructure():
     def save(self, srcpath, outputpath):
         data = self.extract_variables_and_functions(srcpath)
         self.write_to_json(outputpath, data)
+
+
+structure = GetStructure()
+structure.save("test.py", "test.json")
