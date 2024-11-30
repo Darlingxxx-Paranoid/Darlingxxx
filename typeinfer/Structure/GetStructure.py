@@ -103,5 +103,5 @@ class GetStructure():
         self.write_to_json(outputpath, data)
 
 
-structure = GetStructure()
-structure.save("test.py", "test.json")
+# structure = GetStructure()
+# structure.save("test.py", "test.json")
