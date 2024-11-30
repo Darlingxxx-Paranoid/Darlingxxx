@@ -67,7 +67,7 @@ class GetStructure():
 
 
     def extract_variables_and_functions(self, file_path):
-        with open(file_path, "r") as file:
+        with open(file_path, "r", encoding="utf-8") as file:
             tree = ast.parse(file.read())
 
         data = {
@@ -101,7 +101,3 @@ class GetStructure():
     def save(self, srcpath, outputpath):
         data = self.extract_variables_and_functions(srcpath)
         self.write_to_json(outputpath, data)
-
-
-# structure = GetStructure()
-# structure.save("test.py", "test.json")
