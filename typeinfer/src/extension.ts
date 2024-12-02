@@ -96,16 +96,27 @@ export function activate(context: vscode.ExtensionContext) {
 		}
 
 		const filePath = editor.document.uri.fsPath;
-		function findKey(input:any,name:string):string|undefined{
-			if(input.variables && input.variables[name]){
+
+
+		function findKey(input: any, name: string): string | undefined {
+			if (input.variables && input.variables[name]) {
 				return Object.keys(input.variables[name][0])[0];
 			}
+
+			if (input.functions) {
+				for (const [functionName, functionDetails] of Object.entries(input.functions) as [string, any]) {
+					if (functionDetails.param && functionDetails.param[name]) {
+						return Object.keys(functionDetails.param[name][0])[0];
+					}
+				}
+			}
+
 			return undefined;
 		}
-	
+
 		// 如果缓存中有结果，直接使用缓存
 		if (typeCache[filePath]) {
-			const varType = findKey(typeCache[filePath],selectedText);
+			const varType = findKey(typeCache[filePath], selectedText);
 			vscode.window.showInformationMessage(
 				`Variable "${selectedText}" is of type: ${varType} (from cache)`
 			);
@@ -142,7 +153,7 @@ export function activate(context: vscode.ExtensionContext) {
 
 				// 检查推断结果中是否包含选中的变量
 				if (typeCache[filePath]) {
-					const varType = findKey(typeCache[filePath],selectedText);
+					const varType = findKey(typeCache[filePath], selectedText);
 					vscode.window.showInformationMessage(
 						`Variable "${selectedText}" is of type: ${varType} (from cache)`
 					);
