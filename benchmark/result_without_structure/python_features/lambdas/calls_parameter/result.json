@@ -1,0 +1,21 @@
+{
+    "func1": [
+        "function"
+    ],
+    "func2": [
+        "function"
+    ],
+    "x": [
+        "function"
+    ],
+    "a": [
+        "int",
+        "NoneType",
+        "Any"
+    ],
+    "b": [
+        "str",
+        "NoneType",
+        "Any"
+    ]
+}

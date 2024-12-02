@@ -1,0 +1,32 @@
+{
+    "func1": [
+        "function"
+    ],
+    "func2": [
+        "function"
+    ],
+    "func3": [
+        "function"
+    ],
+    "func4": [
+        "function"
+    ],
+    "a": [
+        "list"
+    ],
+    "b": [
+        "list"
+    ],
+    "c": [
+        "int"
+    ],
+    "d": [
+        "float"
+    ],
+    "e": [
+        "str"
+    ],
+    "f": [
+        "TypeError"
+    ]
+}

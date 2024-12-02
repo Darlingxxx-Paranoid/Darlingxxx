@@ -1,0 +1,18 @@
+{
+    "a": [
+        "int",
+        "float"
+    ],
+    "b": [
+        "int",
+        "float"
+    ],
+    "temp": [
+        "int",
+        "float"
+    ],
+    "result": [
+        "int",
+        "float"
+    ]
+}

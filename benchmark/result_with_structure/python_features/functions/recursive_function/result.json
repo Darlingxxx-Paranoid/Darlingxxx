@@ -1,0 +1,35 @@
+{
+    "variables": {
+        "a": [
+            {
+                "int": "1.0"
+            },
+            {
+                "float": "0.0"
+            },
+            {
+                "str": "0.0"
+            }
+        ]
+    },
+    "functions": {
+        "recursive_func": {
+            "name": "recursive_func",
+            "param": {
+                "x": [
+                    {
+                        "int": "1.0"
+                    },
+                    {
+                        "float": "0.0"
+                    },
+                    {
+                        "str": "0.0"
+                    }
+                ]
+            },
+            "variables": {}
+        }
+    },
+    "classes": {}
+}

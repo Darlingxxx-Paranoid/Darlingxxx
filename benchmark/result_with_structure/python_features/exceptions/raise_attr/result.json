@@ -1,0 +1,23 @@
+{
+    "variables": {
+        "a": [
+            {
+                "A.B": "0.9"
+            },
+            {
+                "Exception": "0.8"
+            },
+            {
+                "object": "0.6"
+            }
+        ]
+    },
+    "functions": {},
+    "classes": {
+        "A": {
+            "name": "A",
+            "functions": {},
+            "variables": {}
+        }
+    }
+}

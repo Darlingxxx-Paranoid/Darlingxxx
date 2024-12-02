@@ -1,0 +1,22 @@
+{
+    "func1": [
+        "function",
+        "callable",
+        "Any"
+    ],
+    "func": [
+        "function",
+        "callable",
+        "Any"
+    ],
+    "a": [
+        "function",
+        "callable",
+        "Any"
+    ],
+    "c": [
+        "str",
+        "Any",
+        "object"
+    ]
+}

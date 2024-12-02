@@ -1,0 +1,27 @@
+{
+    "multiply": [
+        "function",
+        "callable",
+        "object"
+    ],
+    "x": [
+        "int",
+        "float",
+        "number"
+    ],
+    "y": [
+        "int",
+        "float",
+        "number"
+    ],
+    "numbers": [
+        "list",
+        "sequence",
+        "iterable"
+    ],
+    "product": [
+        "int",
+        "float",
+        "number"
+    ]
+}

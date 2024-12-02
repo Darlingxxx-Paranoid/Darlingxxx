@@ -1,0 +1,17 @@
+{
+    "func": [
+        "function",
+        "callable",
+        "object"
+    ],
+    "d": [
+        "dict",
+        "object",
+        "mutable"
+    ],
+    "e": [
+        "str",
+        "object",
+        "immutable"
+    ]
+}

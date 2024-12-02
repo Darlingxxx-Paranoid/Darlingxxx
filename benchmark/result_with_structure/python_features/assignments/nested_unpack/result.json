@@ -1,0 +1,71 @@
+{
+    "variables": {
+        "a": [
+            {
+                "function": "0.9"
+            },
+            {
+                "callable": "0.8"
+            },
+            {
+                "object": "0.1"
+            }
+        ],
+        "b": [
+            {
+                "function": "0.9"
+            },
+            {
+                "callable": "0.8"
+            },
+            {
+                "object": "0.1"
+            }
+        ],
+        "c": [
+            {
+                "function": "0.9"
+            },
+            {
+                "callable": "0.8"
+            },
+            {
+                "object": "0.1"
+            }
+        ],
+        "d": [
+            {
+                "function": "0.9"
+            },
+            {
+                "callable": "0.8"
+            },
+            {
+                "object": "0.1"
+            }
+        ]
+    },
+    "functions": {
+        "func1": {
+            "name": "func1",
+            "param": {},
+            "variables": {}
+        },
+        "func2": {
+            "name": "func2",
+            "param": {},
+            "variables": {}
+        },
+        "func3": {
+            "name": "func3",
+            "param": {},
+            "variables": {}
+        },
+        "func4": {
+            "name": "func4",
+            "param": {},
+            "variables": {}
+        }
+    },
+    "classes": {}
+}

@@ -1,0 +1,27 @@
+{
+    "func": [
+        "function",
+        "callable",
+        "object"
+    ],
+    "dec": [
+        "function",
+        "callable",
+        "object"
+    ],
+    "modified_inner": [
+        "function",
+        "callable",
+        "object"
+    ],
+    "inner": [
+        "function",
+        "callable",
+        "object"
+    ],
+    "a": [
+        "int",
+        "number",
+        "object"
+    ]
+}

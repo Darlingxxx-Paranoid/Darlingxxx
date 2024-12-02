@@ -1,0 +1,17 @@
+{
+    "Person": [
+        "type",
+        "class",
+        "object"
+    ],
+    "func": [
+        "function",
+        "callable",
+        "Any"
+    ],
+    "p": [
+        "Person",
+        "object",
+        "Any"
+    ]
+}

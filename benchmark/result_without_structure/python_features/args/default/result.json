@@ -1,0 +1,17 @@
+{
+    "param_func": [
+        "function"
+    ],
+    "param_func2": [
+        "function"
+    ],
+    "func": [
+        "function"
+    ],
+    "b": [
+        "str"
+    ],
+    "c": [
+        "int"
+    ]
+}

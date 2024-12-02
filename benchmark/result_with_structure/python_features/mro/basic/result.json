@@ -1,0 +1,57 @@
+{
+    "variables": {
+        "b": [
+            {
+                "B": "0.9"
+            },
+            {
+                "A": "0.1"
+            },
+            {
+                "object": "0.05"
+            }
+        ],
+        "c": [
+            {
+                "int": "0.95"
+            },
+            {
+                "float": "0.05"
+            },
+            {
+                "Any": "0.01"
+            }
+        ]
+    },
+    "functions": {},
+    "classes": {
+        "A": {
+            "name": "A",
+            "functions": {
+                "func": {
+                    "name": "func",
+                    "param": {
+                        "self": [
+                            {
+                                "A": "0.9"
+                            },
+                            {
+                                "B": "0.1"
+                            },
+                            {
+                                "object": "0.05"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                }
+            },
+            "variables": {}
+        },
+        "B": {
+            "name": "B",
+            "functions": {},
+            "variables": {}
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "func": [
+        "function"
+    ],
+    "a": [
+        "int"
+    ],
+    "ls": [
+        "list",
+        "list[int]",
+        "list[Any]"
+    ]
+}

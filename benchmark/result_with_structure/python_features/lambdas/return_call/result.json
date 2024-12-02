@@ -1,0 +1,34 @@
+{
+    "variables": {
+        "y": [
+            {
+                "function": "0.9"
+            },
+            {
+                "callable": "0.8"
+            },
+            {
+                "lambda": "0.7"
+            }
+        ],
+        "a": [
+            {
+                "int": "0.9"
+            },
+            {
+                "float": "0.1"
+            },
+            {
+                "NoneType": "0.05"
+            }
+        ]
+    },
+    "functions": {
+        "func": {
+            "name": "func",
+            "param": {},
+            "variables": {}
+        }
+    },
+    "classes": {}
+}

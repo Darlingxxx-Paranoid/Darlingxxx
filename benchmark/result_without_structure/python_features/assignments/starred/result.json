@@ -1,0 +1,24 @@
+{
+    "a": [
+        "function"
+    ],
+    "b": [
+        "list",
+        "function"
+    ],
+    "c": [
+        "function"
+    ],
+    "d": [
+        "str"
+    ],
+    "e": [
+        "int"
+    ],
+    "f": [
+        "float"
+    ],
+    "g": [
+        "list"
+    ]
+}

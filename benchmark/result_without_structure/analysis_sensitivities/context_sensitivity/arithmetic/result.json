@@ -1,0 +1,26 @@
+{
+    "a": [
+        "int",
+        "float",
+        "str"
+    ],
+    "b": [
+        "int",
+        "float",
+        "str"
+    ],
+    "result": [
+        "int",
+        "float",
+        "str"
+    ],
+    "result1": [
+        "int"
+    ],
+    "result2": [
+        "float"
+    ],
+    "result3": [
+        "str"
+    ]
+}

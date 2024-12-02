@@ -1,0 +1,51 @@
+{
+    "variables": {
+        "b": [
+            {
+                "function": "0.95"
+            },
+            {
+                "callable": "0.05"
+            },
+            {
+                "object": "0.05"
+            }
+        ],
+        "c": [
+            {
+                "str": "0.98"
+            },
+            {
+                "object": "0.01"
+            },
+            {
+                "NoneType": "0.01"
+            }
+        ]
+    },
+    "functions": {
+        "param_func": {
+            "name": "param_func",
+            "param": {},
+            "variables": {}
+        },
+        "func": {
+            "name": "func",
+            "param": {
+                "a": [
+                    {
+                        "function": "0.90"
+                    },
+                    {
+                        "callable": "0.09"
+                    },
+                    {
+                        "object": "0.01"
+                    }
+                ]
+            },
+            "variables": {}
+        }
+    },
+    "classes": {}
+}

@@ -1,0 +1,57 @@
+{
+    "variables": {
+        "gen": [
+            {
+                "generator": "0.9"
+            },
+            {
+                "iterator": "0.05"
+            },
+            {
+                "object": "0.05"
+            }
+        ],
+        "a": [
+            {
+                "int": "0.9"
+            },
+            {
+                "float": "0.1"
+            },
+            {
+                "NoneType": "0.01"
+            }
+        ],
+        "i": [
+            {
+                "int": "0.95"
+            },
+            {
+                "float": "0.04"
+            },
+            {
+                "NoneType": "0.01"
+            }
+        ]
+    },
+    "functions": {
+        "squares": {
+            "name": "squares",
+            "param": {},
+            "variables": {
+                "n": [
+                    {
+                        "int": "0.98"
+                    },
+                    {
+                        "float": "0.02"
+                    },
+                    {
+                        "NoneType": "0.01"
+                    }
+                ]
+            }
+        }
+    },
+    "classes": {}
+}

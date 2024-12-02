@@ -1,0 +1,79 @@
+{
+    "variables": {
+        "b": [
+            {
+                "function": "0.9"
+            },
+            {
+                "callable": "0.5"
+            },
+            {
+                "object": "0.1"
+            }
+        ],
+        "c": [
+            {
+                "function": "0.9"
+            },
+            {
+                "callable": "0.5"
+            },
+            {
+                "object": "0.1"
+            }
+        ],
+        "d": [
+            {
+                "str": "0.95"
+            },
+            {
+                "object": "0.3"
+            },
+            {
+                "callable": "0.1"
+            }
+        ]
+    },
+    "functions": {
+        "nested_func": {
+            "name": "nested_func",
+            "param": {},
+            "variables": {}
+        },
+        "param_func": {
+            "name": "param_func",
+            "param": {
+                "a": [
+                    {
+                        "function": "0.9"
+                    },
+                    {
+                        "callable": "0.5"
+                    },
+                    {
+                        "object": "0.1"
+                    }
+                ]
+            },
+            "variables": {}
+        },
+        "func": {
+            "name": "func",
+            "param": {
+                "a": [
+                    {
+                        "function": "0.9"
+                    },
+                    {
+                        "callable": "0.5"
+                    },
+                    {
+                        "object": "0.1"
+                    }
+                ]
+            },
+            "variables": {}
+        }
+    },
+    "classes": {}
+}

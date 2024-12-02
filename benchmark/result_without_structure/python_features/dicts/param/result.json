@@ -1,0 +1,12 @@
+{
+    "d": [
+        "dict[str, Callable]",
+        "dict[str, Any]",
+        "dict"
+    ],
+    "e": [
+        "str",
+        "Any",
+        "object"
+    ]
+}

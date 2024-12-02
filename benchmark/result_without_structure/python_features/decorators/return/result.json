@@ -1,0 +1,27 @@
+{
+    "func1": [
+        "function",
+        "callable",
+        "object"
+    ],
+    "dec": [
+        "function",
+        "callable",
+        "object"
+    ],
+    "inner": [
+        "function",
+        "callable",
+        "object"
+    ],
+    "func2": [
+        "function",
+        "callable",
+        "object"
+    ],
+    "a": [
+        "int",
+        "number",
+        "object"
+    ]
+}

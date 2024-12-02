@@ -1,0 +1,63 @@
+{
+    "variables": {
+        "a": [
+            {
+                "int": "0.9"
+            },
+            {
+                "float": "0.1"
+            },
+            {
+                "str": "0.0"
+            }
+        ],
+        "i": [
+            {
+                "function": "0.9"
+            },
+            {
+                "callable": "0.1"
+            },
+            {
+                "object": "0.0"
+            }
+        ]
+    },
+    "functions": {
+        "func2": {
+            "name": "func2",
+            "param": {},
+            "variables": {}
+        },
+        "func1": {
+            "name": "func1",
+            "param": {
+                "n": [
+                    {
+                        "int": "0.9"
+                    },
+                    {
+                        "float": "0.1"
+                    },
+                    {
+                        "str": "0.0"
+                    }
+                ]
+            },
+            "variables": {
+                "num": [
+                    {
+                        "int": "0.9"
+                    },
+                    {
+                        "float": "0.1"
+                    },
+                    {
+                        "str": "0.0"
+                    }
+                ]
+            }
+        }
+    },
+    "classes": {}
+}

@@ -1,0 +1,22 @@
+{
+    "dec1": [
+        "function",
+        "callable",
+        "object"
+    ],
+    "dec2": [
+        "function",
+        "callable",
+        "object"
+    ],
+    "func": [
+        "function",
+        "callable",
+        "object"
+    ],
+    "a": [
+        "int",
+        "number",
+        "object"
+    ]
+}

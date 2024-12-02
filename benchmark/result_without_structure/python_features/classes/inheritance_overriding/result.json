@@ -1,0 +1,22 @@
+{
+    "MyClass": [
+        "type",
+        "class",
+        "object"
+    ],
+    "MySubClass": [
+        "type",
+        "class",
+        "object"
+    ],
+    "a": [
+        "MySubClass",
+        "MyClass",
+        "object"
+    ],
+    "b": [
+        "int",
+        "str",
+        "Any"
+    ]
+}

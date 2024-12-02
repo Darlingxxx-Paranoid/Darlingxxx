@@ -1,0 +1,86 @@
+{
+    "variables": {
+        "a": [
+            {
+                "MyClass": "0.9"
+            },
+            {
+                "object": "0.1"
+            },
+            {
+                "NoneType": "0.0"
+            }
+        ],
+        "b": [
+            {
+                "str": "0.9"
+            },
+            {
+                "object": "0.1"
+            },
+            {
+                "NoneType": "0.0"
+            }
+        ]
+    },
+    "functions": {},
+    "classes": {
+        "MyClass": {
+            "name": "MyClass",
+            "functions": {
+                "__init__": {
+                    "name": "__init__",
+                    "param": {
+                        "self": [
+                            {
+                                "MyClass": "0.9"
+                            },
+                            {
+                                "object": "0.1"
+                            },
+                            {
+                                "NoneType": "0.0"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                },
+                "func1": {
+                    "name": "func1",
+                    "param": {
+                        "self": [
+                            {
+                                "MyClass": "0.9"
+                            },
+                            {
+                                "object": "0.1"
+                            },
+                            {
+                                "NoneType": "0.0"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                },
+                "func2": {
+                    "name": "func2",
+                    "param": {
+                        "self": [
+                            {
+                                "MyClass": "0.9"
+                            },
+                            {
+                                "object": "0.1"
+                            },
+                            {
+                                "NoneType": "0.0"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                }
+            },
+            "variables": {}
+        }
+    }
+}

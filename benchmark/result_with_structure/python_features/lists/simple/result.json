@@ -1,0 +1,93 @@
+{
+    "variables": {
+        "a": [
+            {
+                "list": "1.0"
+            },
+            {
+                "unknown": "0.0"
+            },
+            {
+                "unknown": "0.0"
+            }
+        ],
+        "c": [
+            {
+                "int": "1.0"
+            },
+            {
+                "unknown": "0.0"
+            },
+            {
+                "unknown": "0.0"
+            }
+        ],
+        "d": [
+            {
+                "float": "1.0"
+            },
+            {
+                "unknown": "0.0"
+            },
+            {
+                "unknown": "0.0"
+            }
+        ],
+        "e": [
+            {
+                "str": "1.0"
+            },
+            {
+                "unknown": "0.0"
+            },
+            {
+                "unknown": "0.0"
+            }
+        ],
+        "b": [
+            {
+                "list": "1.0"
+            },
+            {
+                "unknown": "0.0"
+            },
+            {
+                "unknown": "0.0"
+            }
+        ],
+        "f": [
+            {
+                "bool": "1.0"
+            },
+            {
+                "unknown": "0.0"
+            },
+            {
+                "unknown": "0.0"
+            }
+        ]
+    },
+    "functions": {
+        "func1": {
+            "name": "func1",
+            "param": {},
+            "variables": {}
+        },
+        "func2": {
+            "name": "func2",
+            "param": {},
+            "variables": {}
+        },
+        "func3": {
+            "name": "func3",
+            "param": {},
+            "variables": {}
+        },
+        "func4": {
+            "name": "func4",
+            "param": {},
+            "variables": {}
+        }
+    },
+    "classes": {}
+}

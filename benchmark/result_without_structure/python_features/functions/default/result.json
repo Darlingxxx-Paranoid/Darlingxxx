@@ -1,0 +1,30 @@
+{
+    "my_func": [
+        "function"
+    ],
+    "x": [
+        "int",
+        "float",
+        "unknown"
+    ],
+    "y": [
+        "int",
+        "float",
+        "unknown"
+    ],
+    "result1": [
+        "int",
+        "float",
+        "unknown"
+    ],
+    "result2": [
+        "int",
+        "float",
+        "unknown"
+    ],
+    "result3": [
+        "int",
+        "float",
+        "unknown"
+    ]
+}

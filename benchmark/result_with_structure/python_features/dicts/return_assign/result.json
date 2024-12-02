@@ -1,0 +1,39 @@
+{
+    "variables": {
+        "d": [
+            {
+                "dict": "0.9"
+            },
+            {
+                "Mapping": "0.05"
+            },
+            {
+                "Any": "0.05"
+            }
+        ],
+        "e": [
+            {
+                "str": "0.9"
+            },
+            {
+                "Text": "0.05"
+            },
+            {
+                "Any": "0.05"
+            }
+        ]
+    },
+    "functions": {
+        "func2": {
+            "name": "func2",
+            "param": {},
+            "variables": {}
+        },
+        "func1": {
+            "name": "func1",
+            "param": {},
+            "variables": {}
+        }
+    },
+    "classes": {}
+}

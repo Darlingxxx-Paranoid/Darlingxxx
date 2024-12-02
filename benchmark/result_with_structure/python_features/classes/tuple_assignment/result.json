@@ -1,0 +1,114 @@
+{
+    "variables": {
+        "a": [
+            {
+                "MyClass": "1.0"
+            }
+        ],
+        "b": [
+            {
+                "MyClass2": "1.0"
+            }
+        ],
+        "c": [
+            {
+                "function": "1.0"
+            }
+        ],
+        "d": [
+            {
+                "function": "1.0"
+            }
+        ],
+        "e": [
+            {
+                "function": "1.0"
+            }
+        ],
+        "f": [
+            {
+                "int": "1.0"
+            }
+        ],
+        "g": [
+            {
+                "float": "1.0"
+            }
+        ],
+        "h": [
+            {
+                "str": "1.0"
+            }
+        ]
+    },
+    "functions": {},
+    "classes": {
+        "MyClass": {
+            "name": "MyClass",
+            "functions": {
+                "__init__": {
+                    "name": "__init__",
+                    "param": {
+                        "self": [
+                            {
+                                "MyClass": "1.0"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                },
+                "func1": {
+                    "name": "func1",
+                    "param": {
+                        "self": [
+                            {
+                                "MyClass": "1.0"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                },
+                "func2": {
+                    "name": "func2",
+                    "param": {
+                        "self": [
+                            {
+                                "MyClass": "1.0"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                },
+                "func3": {
+                    "name": "func3",
+                    "param": {
+                        "self": [
+                            {
+                                "MyClass": "1.0"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                }
+            },
+            "variables": {}
+        },
+        "MyClass2": {
+            "name": "MyClass2",
+            "functions": {
+                "__init__": {
+                    "name": "__init__",
+                    "param": {
+                        "self": [
+                            {
+                                "MyClass2": "1.0"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                }
+            },
+            "variables": {}
+        }
+    }
+}

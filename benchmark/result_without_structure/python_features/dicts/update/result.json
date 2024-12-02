@@ -1,0 +1,16 @@
+{
+    "func1": [
+        "function"
+    ],
+    "func2": [
+        "function"
+    ],
+    "d": [
+        "dict[str, function]"
+    ],
+    "e": [
+        "int",
+        "str",
+        "None"
+    ]
+}

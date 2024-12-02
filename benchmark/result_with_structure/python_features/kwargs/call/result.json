@@ -1,0 +1,40 @@
+{
+    "variables": {
+        "c": [
+            {
+                "str": "0.9"
+            },
+            {
+                "NoneType": "0.05"
+            },
+            {
+                "int": "0.05"
+            }
+        ]
+    },
+    "functions": {
+        "func1": {
+            "name": "func1",
+            "param": {},
+            "variables": {}
+        },
+        "func": {
+            "name": "func",
+            "param": {
+                "a": [
+                    {
+                        "function": "0.9"
+                    },
+                    {
+                        "NoneType": "0.05"
+                    },
+                    {
+                        "callable": "0.05"
+                    }
+                ]
+            },
+            "variables": {}
+        }
+    },
+    "classes": {}
+}

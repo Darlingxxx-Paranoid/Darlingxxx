@@ -1,0 +1,31 @@
+{
+    "f": [
+        "function"
+    ],
+    "wrapper": [
+        "function"
+    ],
+    "a": [
+        "str",
+        "int",
+        "float"
+    ],
+    "b": [
+        "str",
+        "int",
+        "float"
+    ],
+    "result": [
+        "str",
+        "int",
+        "float"
+    ],
+    "c": [
+        "str",
+        "int",
+        "float"
+    ],
+    "func": [
+        "function"
+    ]
+}

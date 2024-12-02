@@ -1,0 +1,27 @@
+{
+    "MyClass": [
+        "type",
+        "class",
+        "object"
+    ],
+    "my_static_method": [
+        "function",
+        "staticmethod",
+        "callable"
+    ],
+    "x": [
+        "int",
+        "float",
+        "Any"
+    ],
+    "y": [
+        "int",
+        "float",
+        "Any"
+    ],
+    "result": [
+        "int",
+        "float",
+        "Any"
+    ]
+}

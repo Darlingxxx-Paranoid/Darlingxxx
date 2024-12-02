@@ -1,0 +1,35 @@
+{
+    "variables": {
+        "ls": [
+            {
+                "list": "0.9"
+            },
+            {
+                "List[int]": "0.85"
+            },
+            {
+                "List": "0.8"
+            }
+        ]
+    },
+    "functions": {
+        "func": {
+            "name": "func",
+            "param": {
+                "a": [
+                    {
+                        "int": "0.9"
+                    },
+                    {
+                        "float": "0.1"
+                    },
+                    {
+                        "str": "0.05"
+                    }
+                ]
+            },
+            "variables": {}
+        }
+    },
+    "classes": {}
+}

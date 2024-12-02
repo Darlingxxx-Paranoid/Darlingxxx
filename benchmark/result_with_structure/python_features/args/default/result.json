@@ -1,0 +1,56 @@
+{
+    "variables": {
+        "b": [
+            {
+                "str": "0.9"
+            },
+            {
+                "int": "0.05"
+            },
+            {
+                "bool": "0.05"
+            }
+        ],
+        "c": [
+            {
+                "int": "0.9"
+            },
+            {
+                "str": "0.05"
+            },
+            {
+                "bool": "0.05"
+            }
+        ]
+    },
+    "functions": {
+        "param_func": {
+            "name": "param_func",
+            "param": {},
+            "variables": {}
+        },
+        "param_func2": {
+            "name": "param_func2",
+            "param": {},
+            "variables": {}
+        },
+        "func": {
+            "name": "func",
+            "param": {
+                "a": [
+                    {
+                        "function": "0.9"
+                    },
+                    {
+                        "none": "0.05"
+                    },
+                    {
+                        "str": "0.05"
+                    }
+                ]
+            },
+            "variables": {}
+        }
+    },
+    "classes": {}
+}

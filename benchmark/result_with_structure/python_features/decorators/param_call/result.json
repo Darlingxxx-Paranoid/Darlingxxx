@@ -1,0 +1,63 @@
+{
+    "variables": {
+        "c": [
+            {
+                "str": "0.95"
+            },
+            {
+                "list": "0.03"
+            },
+            {
+                "NoneType": "0.02"
+            }
+        ]
+    },
+    "functions": {
+        "dec": {
+            "name": "dec",
+            "param": {
+                "f": [
+                    {
+                        "function": "0.98"
+                    },
+                    {
+                        "callable": "0.02"
+                    },
+                    {
+                        "object": "0.01"
+                    }
+                ]
+            },
+            "variables": {}
+        },
+        "func": {
+            "name": "func",
+            "param": {
+                "a": [
+                    {
+                        "str": "0.85"
+                    },
+                    {
+                        "int": "0.1"
+                    },
+                    {
+                        "float": "0.05"
+                    }
+                ],
+                "b": [
+                    {
+                        "str": "0.85"
+                    },
+                    {
+                        "int": "0.1"
+                    },
+                    {
+                        "float": "0.05"
+                    }
+                ]
+            },
+            "variables": {}
+        }
+    },
+    "classes": {}
+}

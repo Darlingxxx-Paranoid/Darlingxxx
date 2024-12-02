@@ -1,0 +1,47 @@
+{
+    "ArithmeticOperation": [
+        "type",
+        "class",
+        "object"
+    ],
+    "self": [
+        "ArithmeticOperation",
+        "object",
+        "instance"
+    ],
+    "a": [
+        "int",
+        "str",
+        "unknown"
+    ],
+    "b": [
+        "int",
+        "str",
+        "unknown"
+    ],
+    "result": [
+        "int",
+        "str",
+        "NoneType"
+    ],
+    "arith_op1": [
+        "ArithmeticOperation",
+        "object",
+        "instance"
+    ],
+    "arith_op2": [
+        "ArithmeticOperation",
+        "object",
+        "instance"
+    ],
+    "result1": [
+        "int",
+        "object",
+        "unknown"
+    ],
+    "result2": [
+        "str",
+        "object",
+        "unknown"
+    ]
+}

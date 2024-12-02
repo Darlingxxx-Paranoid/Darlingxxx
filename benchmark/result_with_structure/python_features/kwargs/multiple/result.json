@@ -1,0 +1,46 @@
+{
+    "variables": {
+        "c": [
+            {
+                "str": "0.9"
+            },
+            {
+                "NoneType": "0.05"
+            },
+            {
+                "list": "0.05"
+            }
+        ]
+    },
+    "functions": {
+        "concatenate": {
+            "name": "concatenate",
+            "param": {},
+            "variables": {
+                "result": [
+                    {
+                        "str": "0.9"
+                    },
+                    {
+                        "NoneType": "0.05"
+                    },
+                    {
+                        "list": "0.05"
+                    }
+                ],
+                "arg": [
+                    {
+                        "str": "0.9"
+                    },
+                    {
+                        "NoneType": "0.05"
+                    },
+                    {
+                        "int": "0.05"
+                    }
+                ]
+            }
+        }
+    },
+    "classes": {}
+}

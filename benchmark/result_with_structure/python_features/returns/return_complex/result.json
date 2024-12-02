@@ -1,0 +1,65 @@
+{
+    "variables": {
+        "a": [
+            {
+                "int": "1.0"
+            },
+            {
+                "str": "0.0"
+            },
+            {
+                "bool": "0.0"
+            }
+        ],
+        "b": [
+            {
+                "int": "1.0"
+            },
+            {
+                "str": "0.0"
+            },
+            {
+                "bool": "0.0"
+            }
+        ],
+        "c": [
+            {
+                "int": "1.0"
+            },
+            {
+                "str": "0.0"
+            },
+            {
+                "bool": "0.0"
+            }
+        ]
+    },
+    "functions": {
+        "func": {
+            "name": "func",
+            "param": {},
+            "variables": {}
+        },
+        "func2": {
+            "name": "func2",
+            "param": {},
+            "variables": {}
+        },
+        "func3": {
+            "name": "func3",
+            "param": {},
+            "variables": {}
+        },
+        "func4": {
+            "name": "func4",
+            "param": {},
+            "variables": {}
+        },
+        "func5": {
+            "name": "func5",
+            "param": {},
+            "variables": {}
+        }
+    },
+    "classes": {}
+}

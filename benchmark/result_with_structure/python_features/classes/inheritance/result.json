@@ -1,0 +1,86 @@
+{
+    "variables": {
+        "a": [
+            {
+                "MySubClass": "1.0"
+            },
+            {
+                "MyClass": "0.0"
+            },
+            {
+                "int": "0.0"
+            }
+        ],
+        "b": [
+            {
+                "str": "1.0"
+            },
+            {
+                "NoneType": "0.0"
+            },
+            {
+                "int": "0.0"
+            }
+        ],
+        "c": [
+            {
+                "int": "1.0"
+            },
+            {
+                "NoneType": "0.0"
+            },
+            {
+                "str": "0.0"
+            }
+        ]
+    },
+    "functions": {},
+    "classes": {
+        "MyClass": {
+            "name": "MyClass",
+            "functions": {
+                "func": {
+                    "name": "func",
+                    "param": {
+                        "self": [
+                            {
+                                "MyClass": "1.0"
+                            },
+                            {
+                                "NoneType": "0.0"
+                            },
+                            {
+                                "int": "0.0"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                }
+            },
+            "variables": {}
+        },
+        "MySubClass": {
+            "name": "MySubClass",
+            "functions": {
+                "sub_func": {
+                    "name": "sub_func",
+                    "param": {
+                        "self": [
+                            {
+                                "MySubClass": "1.0"
+                            },
+                            {
+                                "MyClass": "0.0"
+                            },
+                            {
+                                "int": "0.0"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                }
+            },
+            "variables": {}
+        }
+    }
+}

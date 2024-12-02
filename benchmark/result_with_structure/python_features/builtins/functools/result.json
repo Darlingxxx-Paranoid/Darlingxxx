@@ -1,0 +1,57 @@
+{
+    "variables": {
+        "numbers": [
+            {
+                "list": "0.9"
+            },
+            {
+                "tuple": "0.1"
+            },
+            {
+                "str": "0.05"
+            }
+        ],
+        "product": [
+            {
+                "int": "0.9"
+            },
+            {
+                "float": "0.1"
+            },
+            {
+                "complex": "0.05"
+            }
+        ]
+    },
+    "functions": {
+        "multiply": {
+            "name": "multiply",
+            "param": {
+                "x": [
+                    {
+                        "int": "0.9"
+                    },
+                    {
+                        "float": "0.1"
+                    },
+                    {
+                        "complex": "0.05"
+                    }
+                ],
+                "y": [
+                    {
+                        "int": "0.9"
+                    },
+                    {
+                        "float": "0.1"
+                    },
+                    {
+                        "complex": "0.05"
+                    }
+                ]
+            },
+            "variables": {}
+        }
+    },
+    "classes": {}
+}

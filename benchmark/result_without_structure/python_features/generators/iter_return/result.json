@@ -1,0 +1,25 @@
+{
+    "func": [
+        "function"
+    ],
+    "Cls": [
+        "class"
+    ],
+    "self": [
+        "Cls"
+    ],
+    "max": [
+        "int"
+    ],
+    "n": [
+        "int"
+    ],
+    "output_list": [
+        "list",
+        "list[function]",
+        "list[callable]"
+    ],
+    "a": [
+        "int"
+    ]
+}

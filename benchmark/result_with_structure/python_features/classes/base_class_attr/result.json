@@ -1,0 +1,85 @@
+{
+    "variables": {
+        "c": [
+            {
+                "C": "0.9"
+            },
+            {
+                "A.B": "0.1"
+            },
+            {
+                "object": "0.05"
+            }
+        ],
+        "d": [
+            {
+                "str": "0.95"
+            },
+            {
+                "NoneType": "0.03"
+            },
+            {
+                "object": "0.02"
+            }
+        ],
+        "e": [
+            {
+                "int": "0.97"
+            },
+            {
+                "NoneType": "0.02"
+            },
+            {
+                "object": "0.01"
+            }
+        ]
+    },
+    "functions": {},
+    "classes": {
+        "A": {
+            "name": "A",
+            "functions": {},
+            "variables": {}
+        },
+        "C": {
+            "name": "C",
+            "functions": {
+                "__init__": {
+                    "name": "__init__",
+                    "param": {
+                        "self": [
+                            {
+                                "C": "0.9"
+                            },
+                            {
+                                "A.B": "0.1"
+                            },
+                            {
+                                "object": "0.05"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                },
+                "cfunc": {
+                    "name": "cfunc",
+                    "param": {
+                        "self": [
+                            {
+                                "C": "0.9"
+                            },
+                            {
+                                "A.B": "0.1"
+                            },
+                            {
+                                "object": "0.05"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                }
+            },
+            "variables": {}
+        }
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "variables": {
+        "a": [
+            {
+                "A": "1.0"
+            }
+        ],
+        "b": [
+            {
+                "int": "0.5"
+            },
+            {
+                "str": "0.5"
+            },
+            {
+                "NoneType": "0.0"
+            }
+        ]
+    },
+    "functions": {},
+    "classes": {
+        "B": {
+            "name": "B",
+            "functions": {
+                "funcb": {
+                    "name": "funcb",
+                    "param": {
+                        "self": [
+                            {
+                                "B": "1.0"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                },
+                "func": {
+                    "name": "func",
+                    "param": {
+                        "self": [
+                            {
+                                "B": "1.0"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                }
+            },
+            "variables": {}
+        },
+        "A": {
+            "name": "A",
+            "functions": {
+                "funca": {
+                    "name": "funca",
+                    "param": {
+                        "self": [
+                            {
+                                "A": "1.0"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                },
+                "func": {
+                    "name": "func",
+                    "param": {
+                        "self": [
+                            {
+                                "A": "1.0"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                }
+            },
+            "variables": {}
+        }
+    }
+}

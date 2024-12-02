@@ -1,0 +1,98 @@
+{
+    "variables": {
+        "c": [
+            {
+                "C": "0.9"
+            },
+            {
+                "B": "0.05"
+            },
+            {
+                "A": "0.05"
+            }
+        ],
+        "d": [
+            {
+                "str": "0.9"
+            },
+            {
+                "NoneType": "0.05"
+            },
+            {
+                "object": "0.05"
+            }
+        ]
+    },
+    "functions": {},
+    "classes": {
+        "A": {
+            "name": "A",
+            "functions": {
+                "func": {
+                    "name": "func",
+                    "param": {
+                        "self": [
+                            {
+                                "A": "0.9"
+                            },
+                            {
+                                "object": "0.1"
+                            },
+                            {
+                                "NoneType": "0.0"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                }
+            },
+            "variables": {}
+        },
+        "B": {
+            "name": "B",
+            "functions": {
+                "func": {
+                    "name": "func",
+                    "param": {
+                        "self": [
+                            {
+                                "B": "0.9"
+                            },
+                            {
+                                "A": "0.1"
+                            },
+                            {
+                                "object": "0.0"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                }
+            },
+            "variables": {}
+        },
+        "C": {
+            "name": "C",
+            "functions": {
+                "func": {
+                    "name": "func",
+                    "param": {
+                        "self": [
+                            {
+                                "C": "0.9"
+                            },
+                            {
+                                "B": "0.05"
+                            },
+                            {
+                                "A": "0.05"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                }
+            },
+            "variables": {}
+        }
+    }
+}

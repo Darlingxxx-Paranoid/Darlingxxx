@@ -1,0 +1,37 @@
+{
+    "C": [
+        "type",
+        "class",
+        "object"
+    ],
+    "B": [
+        "type",
+        "class",
+        "object"
+    ],
+    "A": [
+        "type",
+        "class",
+        "object"
+    ],
+    "c": [
+        "C",
+        "attribute",
+        "function"
+    ],
+    "self": [
+        "C",
+        "B",
+        "A"
+    ],
+    "a": [
+        "A",
+        "object",
+        "instance"
+    ],
+    "b": [
+        "B",
+        "instance",
+        "str"
+    ]
+}

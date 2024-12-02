@@ -1,0 +1,27 @@
+{
+    "a": [
+        "int",
+        "function",
+        "callable"
+    ],
+    "b": [
+        "int",
+        "NoneType",
+        "unknown"
+    ],
+    "integers": [
+        "tuple",
+        "iterable",
+        "sequence"
+    ],
+    "x": [
+        "int",
+        "float",
+        "unknown"
+    ],
+    "result": [
+        "int",
+        "float",
+        "unknown"
+    ]
+}

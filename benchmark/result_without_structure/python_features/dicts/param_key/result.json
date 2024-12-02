@@ -1,0 +1,22 @@
+{
+    "key": [
+        "str",
+        "unknown",
+        "NoneType"
+    ],
+    "d": [
+        "dict",
+        "unknown",
+        "NoneType"
+    ],
+    "e": [
+        "str",
+        "unknown",
+        "NoneType"
+    ],
+    "f": [
+        "int",
+        "unknown",
+        "NoneType"
+    ]
+}

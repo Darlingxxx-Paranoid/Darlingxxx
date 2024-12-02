@@ -1,0 +1,155 @@
+{
+    "variables": {
+        "a": [
+            {
+                "A": "1.0"
+            },
+            {
+                "object": "0.7"
+            },
+            {
+                "NoneType": "0.1"
+            }
+        ],
+        "b": [
+            {
+                "str": "1.0"
+            },
+            {
+                "object": "0.6"
+            },
+            {
+                "NoneType": "0.1"
+            }
+        ]
+    },
+    "functions": {},
+    "classes": {
+        "C": {
+            "name": "C",
+            "functions": {
+                "func": {
+                    "name": "func",
+                    "param": {
+                        "self": [
+                            {
+                                "C": "1.0"
+                            },
+                            {
+                                "object": "0.7"
+                            },
+                            {
+                                "NoneType": "0.1"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                }
+            },
+            "variables": {}
+        },
+        "B": {
+            "name": "B",
+            "functions": {
+                "__init__": {
+                    "name": "__init__",
+                    "param": {
+                        "self": [
+                            {
+                                "B": "1.0"
+                            },
+                            {
+                                "object": "0.7"
+                            },
+                            {
+                                "NoneType": "0.1"
+                            }
+                        ],
+                        "c": [
+                            {
+                                "C": "1.0"
+                            },
+                            {
+                                "object": "0.7"
+                            },
+                            {
+                                "NoneType": "0.1"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                },
+                "func": {
+                    "name": "func",
+                    "param": {
+                        "self": [
+                            {
+                                "B": "1.0"
+                            },
+                            {
+                                "object": "0.7"
+                            },
+                            {
+                                "NoneType": "0.1"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                }
+            },
+            "variables": {}
+        },
+        "A": {
+            "name": "A",
+            "functions": {
+                "__init__": {
+                    "name": "__init__",
+                    "param": {
+                        "self": [
+                            {
+                                "A": "1.0"
+                            },
+                            {
+                                "object": "0.7"
+                            },
+                            {
+                                "NoneType": "0.1"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                },
+                "func": {
+                    "name": "func",
+                    "param": {
+                        "self": [
+                            {
+                                "A": "1.0"
+                            },
+                            {
+                                "object": "0.7"
+                            },
+                            {
+                                "NoneType": "0.1"
+                            }
+                        ]
+                    },
+                    "variables": {
+                        "b": [
+                            {
+                                "B": "1.0"
+                            },
+                            {
+                                "object": "0.7"
+                            },
+                            {
+                                "NoneType": "0.1"
+                            }
+                        ]
+                    }
+                }
+            },
+            "variables": {}
+        }
+    }
+}

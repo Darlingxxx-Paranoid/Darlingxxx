@@ -1,0 +1,17 @@
+{
+    "a": [
+        "A",
+        "object of class A",
+        "instance of class A"
+    ],
+    "b": [
+        "B",
+        "object of class B",
+        "instance of class B"
+    ],
+    "c": [
+        "str",
+        "string",
+        "text"
+    ]
+}

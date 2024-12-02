@@ -1,0 +1,33 @@
+{
+    "my_list": [
+        "list[int]",
+        "list[float]",
+        "list[object]"
+    ],
+    "length": [
+        "int"
+    ],
+    "total": [
+        "int",
+        "float"
+    ],
+    "largest": [
+        "int",
+        "float"
+    ],
+    "smallest": [
+        "int",
+        "float"
+    ],
+    "sorted_list": [
+        "list[int]",
+        "list[float]",
+        "list[object]"
+    ],
+    "any_list": [
+        "bool"
+    ],
+    "all_list": [
+        "bool"
+    ]
+}

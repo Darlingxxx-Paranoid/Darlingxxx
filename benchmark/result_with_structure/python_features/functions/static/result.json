@@ -1,0 +1,52 @@
+{
+    "variables": {
+        "result": [
+            {
+                "int": "0.9"
+            },
+            {
+                "float": "0.1"
+            },
+            {
+                "str": "0.05"
+            }
+        ]
+    },
+    "functions": {},
+    "classes": {
+        "MyClass": {
+            "name": "MyClass",
+            "functions": {
+                "my_static_method": {
+                    "name": "my_static_method",
+                    "param": {
+                        "x": [
+                            {
+                                "int": "0.9"
+                            },
+                            {
+                                "float": "0.1"
+                            },
+                            {
+                                "str": "0.05"
+                            }
+                        ],
+                        "y": [
+                            {
+                                "int": "0.9"
+                            },
+                            {
+                                "float": "0.1"
+                            },
+                            {
+                                "str": "0.05"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                }
+            },
+            "variables": {}
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "variables": {
+        "a": [
+            {
+                "MyClass": "1.0"
+            }
+        ],
+        "b": [
+            {
+                "int": "1.0"
+            }
+        ]
+    },
+    "functions": {},
+    "classes": {
+        "MyClass": {
+            "name": "MyClass",
+            "functions": {
+                "__init__": {
+                    "name": "__init__",
+                    "param": {
+                        "self": [
+                            {
+                                "MyClass": "1.0"
+                            }
+                        ],
+                        "instance_var": [
+                            {
+                                "int": "1.0"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                }
+            },
+            "variables": {
+                "class_var": [
+                    {
+                        "int": "1.0"
+                    }
+                ]
+            }
+        }
+    }
+}

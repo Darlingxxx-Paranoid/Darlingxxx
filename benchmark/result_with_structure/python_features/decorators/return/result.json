@@ -1,0 +1,51 @@
+{
+    "variables": {
+        "a": [
+            {
+                "int": "1.0"
+            },
+            {
+                "str": "0.0"
+            },
+            {
+                "bool": "0.0"
+            }
+        ]
+    },
+    "functions": {
+        "func1": {
+            "name": "func1",
+            "param": {},
+            "variables": {
+                "dec": [
+                    {
+                        "function": "1.0"
+                    },
+                    {
+                        "None": "0.0"
+                    },
+                    {
+                        "str": "0.0"
+                    }
+                ],
+                "inner": [
+                    {
+                        "function": "1.0"
+                    },
+                    {
+                        "None": "0.0"
+                    },
+                    {
+                        "str": "0.0"
+                    }
+                ]
+            }
+        },
+        "func2": {
+            "name": "func2",
+            "param": {},
+            "variables": {}
+        }
+    },
+    "classes": {}
+}

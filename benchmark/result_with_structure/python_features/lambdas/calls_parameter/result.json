@@ -1,0 +1,50 @@
+{
+    "variables": {
+        "x": [
+            {
+                "function": "0.9"
+            },
+            {
+                "callable": "0.1"
+            },
+            {
+                "object": "0.05"
+            }
+        ],
+        "a": [
+            {
+                "int": "0.95"
+            },
+            {
+                "number": "0.05"
+            },
+            {
+                "object": "0.01"
+            }
+        ],
+        "b": [
+            {
+                "str": "0.95"
+            },
+            {
+                "text": "0.05"
+            },
+            {
+                "object": "0.01"
+            }
+        ]
+    },
+    "functions": {
+        "func1": {
+            "name": "func1",
+            "param": {},
+            "variables": {}
+        },
+        "func2": {
+            "name": "func2",
+            "param": {},
+            "variables": {}
+        }
+    },
+    "classes": {}
+}

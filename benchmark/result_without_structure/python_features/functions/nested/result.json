@@ -1,0 +1,17 @@
+{
+    "x": [
+        "int",
+        "None",
+        "Unknown"
+    ],
+    "inner": [
+        "function",
+        "None",
+        "Unknown"
+    ],
+    "a": [
+        "int",
+        "None",
+        "Unknown"
+    ]
+}

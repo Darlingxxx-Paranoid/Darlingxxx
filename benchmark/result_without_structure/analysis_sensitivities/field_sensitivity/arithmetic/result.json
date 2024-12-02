@@ -1,0 +1,37 @@
+{
+    "ArithmeticOperation": [
+        "class",
+        "type",
+        "object"
+    ],
+    "a": [
+        "int",
+        "Any",
+        "float"
+    ],
+    "b": [
+        "int",
+        "Any",
+        "float"
+    ],
+    "self": [
+        "ArithmeticOperation",
+        "object",
+        "instance"
+    ],
+    "result": [
+        "int",
+        "Any",
+        "float"
+    ],
+    "arith_op": [
+        "ArithmeticOperation",
+        "object",
+        "instance"
+    ],
+    "result1": [
+        "int",
+        "Any",
+        "float"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "my_list": [
+        "list[int]",
+        "list",
+        "Iterable[int]"
+    ],
+    "copy_of_my_list": [
+        "list[int]",
+        "list",
+        "Iterable[int]"
+    ]
+}

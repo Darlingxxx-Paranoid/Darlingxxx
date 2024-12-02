@@ -1,0 +1,70 @@
+{
+    "variables": {
+        "a": [
+            {
+                "MyClass": "0.9"
+            },
+            {
+                "NewClass": "0.1"
+            },
+            {
+                "object": "0.0"
+            }
+        ],
+        "b": [
+            {
+                "int": "0.6"
+            },
+            {
+                "str": "0.4"
+            },
+            {
+                "NoneType": "0.0"
+            }
+        ]
+    },
+    "functions": {
+        "my_decorator": {
+            "name": "my_decorator",
+            "param": {
+                "cls": [
+                    {
+                        "type": "0.9"
+                    },
+                    {
+                        "object": "0.1"
+                    },
+                    {
+                        "Any": "0.0"
+                    }
+                ]
+            },
+            "variables": {}
+        }
+    },
+    "classes": {
+        "MyClass": {
+            "name": "MyClass",
+            "functions": {
+                "my_method": {
+                    "name": "my_method",
+                    "param": {
+                        "self": [
+                            {
+                                "MyClass": "0.9"
+                            },
+                            {
+                                "object": "0.1"
+                            },
+                            {
+                                "Any": "0.0"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                }
+            },
+            "variables": {}
+        }
+    }
+}

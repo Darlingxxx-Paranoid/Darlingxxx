@@ -1,0 +1,17 @@
+{
+    "dict1": [
+        "dict",
+        "Mapping[str, int]",
+        "Dict[str, int]"
+    ],
+    "dict2": [
+        "dict",
+        "Mapping[str, int]",
+        "Dict[str, int]"
+    ],
+    "merged_dict": [
+        "dict",
+        "Mapping[str, int]",
+        "Dict[str, int]"
+    ]
+}

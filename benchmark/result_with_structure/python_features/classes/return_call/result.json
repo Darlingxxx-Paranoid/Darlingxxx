@@ -1,0 +1,80 @@
+{
+    "variables": {
+        "a": [
+            {
+                "MyClass": "1.0"
+            },
+            {
+                "object": "0.0"
+            },
+            {
+                "NoneType": "0.0"
+            }
+        ],
+        "b": [
+            {
+                "method": "1.0"
+            },
+            {
+                "callable": "1.0"
+            },
+            {
+                "function": "0.0"
+            }
+        ],
+        "c": [
+            {
+                "str": "1.0"
+            },
+            {
+                "object": "0.0"
+            },
+            {
+                "NoneType": "0.0"
+            }
+        ]
+    },
+    "functions": {},
+    "classes": {
+        "MyClass": {
+            "name": "MyClass",
+            "functions": {
+                "func2": {
+                    "name": "func2",
+                    "param": {
+                        "self": [
+                            {
+                                "MyClass": "1.0"
+                            },
+                            {
+                                "object": "0.0"
+                            },
+                            {
+                                "NoneType": "0.0"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                },
+                "func1": {
+                    "name": "func1",
+                    "param": {
+                        "self": [
+                            {
+                                "MyClass": "1.0"
+                            },
+                            {
+                                "object": "0.0"
+                            },
+                            {
+                                "NoneType": "0.0"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                }
+            },
+            "variables": {}
+        }
+    }
+}

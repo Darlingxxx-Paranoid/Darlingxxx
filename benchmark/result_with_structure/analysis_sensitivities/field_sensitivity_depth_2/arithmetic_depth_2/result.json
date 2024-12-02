@@ -1,0 +1,183 @@
+{
+    "variables": {
+        "arith_op": [
+            {
+                "ArithmeticOperation": "0.9"
+            },
+            {
+                "object": "0.1"
+            },
+            {
+                "NoneType": "0.1"
+            }
+        ],
+        "result1": [
+            {
+                "int": "0.9"
+            },
+            {
+                "float": "0.05"
+            },
+            {
+                "NoneType": "0.05"
+            }
+        ]
+    },
+    "functions": {},
+    "classes": {
+        "ArithmeticOperation": {
+            "name": "ArithmeticOperation",
+            "functions": {
+                "__init__": {
+                    "name": "__init__",
+                    "param": {
+                        "self": [
+                            {
+                                "ArithmeticOperation": "0.9"
+                            },
+                            {
+                                "object": "0.1"
+                            },
+                            {
+                                "NoneType": "0.1"
+                            }
+                        ],
+                        "a": [
+                            {
+                                "int": "0.7"
+                            },
+                            {
+                                "float": "0.2"
+                            },
+                            {
+                                "NoneType": "0.1"
+                            }
+                        ],
+                        "b": [
+                            {
+                                "int": "0.7"
+                            },
+                            {
+                                "float": "0.2"
+                            },
+                            {
+                                "NoneType": "0.1"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                },
+                "compute": {
+                    "name": "compute",
+                    "param": {
+                        "self": [
+                            {
+                                "ArithmeticOperation": "0.9"
+                            },
+                            {
+                                "object": "0.1"
+                            },
+                            {
+                                "NoneType": "0.1"
+                            }
+                        ]
+                    },
+                    "variables": {
+                        "self.result": [
+                            {
+                                "int": "0.9"
+                            },
+                            {
+                                "float": "0.05"
+                            },
+                            {
+                                "NoneType": "0.05"
+                            }
+                        ]
+                    }
+                }
+            },
+            "variables": {
+                "self.a": [
+                    {
+                        "int": "0.7"
+                    },
+                    {
+                        "float": "0.2"
+                    },
+                    {
+                        "NoneType": "0.1"
+                    }
+                ],
+                "self.result": [
+                    {
+                        "int": "0.9"
+                    },
+                    {
+                        "float": "0.05"
+                    },
+                    {
+                        "NoneType": "0.05"
+                    }
+                ],
+                "self.nested": [
+                    {
+                        "ArithmeticOperation.Nested": "0.9"
+                    },
+                    {
+                        "object": "0.1"
+                    },
+                    {
+                        "NoneType": "0.1"
+                    }
+                ]
+            }
+        },
+        "ArithmeticOperation.Nested": {
+            "name": "Nested",
+            "functions": {
+                "__init__": {
+                    "name": "__init__",
+                    "param": {
+                        "self": [
+                            {
+                                "ArithmeticOperation.Nested": "0.9"
+                            },
+                            {
+                                "object": "0.1"
+                            },
+                            {
+                                "NoneType": "0.1"
+                            }
+                        ],
+                        "b": [
+                            {
+                                "int": "0.7"
+                            },
+                            {
+                                "float": "0.2"
+                            },
+                            {
+                                "NoneType": "0.1"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                }
+            },
+            "variables": {
+                "self.b": [
+                    {
+                        "int": "0.7"
+                    },
+                    {
+                        "float": "0.2"
+                    },
+                    {
+                        "NoneType": "0.1"
+                    }
+                ]
+            }
+        }
+    }
+}

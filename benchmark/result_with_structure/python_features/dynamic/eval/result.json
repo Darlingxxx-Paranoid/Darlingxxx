@@ -1,0 +1,23 @@
+{
+    "variables": {
+        "a": [
+            {
+                "str": "1.0"
+            },
+            {
+                "none": "0.0"
+            },
+            {
+                "unknown": "0.0"
+            }
+        ]
+    },
+    "functions": {
+        "func": {
+            "name": "func",
+            "param": {},
+            "variables": {}
+        }
+    },
+    "classes": {}
+}

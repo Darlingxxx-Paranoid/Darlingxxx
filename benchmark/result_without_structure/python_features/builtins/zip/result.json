@@ -1,0 +1,22 @@
+{
+    "names": [
+        "list[str]",
+        "list",
+        "iterable"
+    ],
+    "ages": [
+        "list[int]",
+        "list",
+        "iterable"
+    ],
+    "combined": [
+        "zip",
+        "iterator",
+        "iterable"
+    ],
+    "result": [
+        "list[tuple[str, int]]",
+        "list",
+        "iterable"
+    ]
+}

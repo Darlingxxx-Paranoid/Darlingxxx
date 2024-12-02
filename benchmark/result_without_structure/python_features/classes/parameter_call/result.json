@@ -1,0 +1,32 @@
+{
+    "MyClass": [
+        "type",
+        "class",
+        "object"
+    ],
+    "func3": [
+        "method",
+        "function",
+        "callable"
+    ],
+    "func2": [
+        "method",
+        "function",
+        "callable"
+    ],
+    "func1": [
+        "method",
+        "function",
+        "callable"
+    ],
+    "a": [
+        "MyClass",
+        "object",
+        "instance"
+    ],
+    "d": [
+        "str",
+        "string",
+        "output"
+    ]
+}

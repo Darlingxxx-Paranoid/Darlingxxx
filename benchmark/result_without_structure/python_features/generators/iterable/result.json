@@ -1,0 +1,37 @@
+{
+    "func": [
+        "class",
+        "type",
+        "callable"
+    ],
+    "self": [
+        "instance of func",
+        "object",
+        "reference"
+    ],
+    "n": [
+        "int",
+        "integer",
+        "number"
+    ],
+    "num": [
+        "int",
+        "integer",
+        "number"
+    ],
+    "cur": [
+        "int",
+        "integer",
+        "number"
+    ],
+    "output_list": [
+        "list",
+        "sequence",
+        "container"
+    ],
+    "i": [
+        "int",
+        "integer",
+        "number"
+    ]
+}

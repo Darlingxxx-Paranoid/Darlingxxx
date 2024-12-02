@@ -1,0 +1,114 @@
+{
+    "variables": {
+        "a": [
+            {
+                "Rectangle": "0.9"
+            },
+            {
+                "Shape": "0.1"
+            },
+            {
+                "object": "0.05"
+            }
+        ],
+        "b": [
+            {
+                "int": "0.95"
+            },
+            {
+                "float": "0.05"
+            },
+            {
+                "object": "0.01"
+            }
+        ]
+    },
+    "functions": {},
+    "classes": {
+        "Shape": {
+            "name": "Shape",
+            "functions": {
+                "area": {
+                    "name": "area",
+                    "param": {
+                        "self": [
+                            {
+                                "Shape": "0.9"
+                            },
+                            {
+                                "object": "0.1"
+                            },
+                            {
+                                "NoneType": "0.01"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                }
+            },
+            "variables": {}
+        },
+        "Rectangle": {
+            "name": "Rectangle",
+            "functions": {
+                "__init__": {
+                    "name": "__init__",
+                    "param": {
+                        "self": [
+                            {
+                                "Rectangle": "0.9"
+                            },
+                            {
+                                "Shape": "0.1"
+                            },
+                            {
+                                "object": "0.05"
+                            }
+                        ],
+                        "width": [
+                            {
+                                "int": "0.8"
+                            },
+                            {
+                                "float": "0.2"
+                            },
+                            {
+                                "object": "0.1"
+                            }
+                        ],
+                        "height": [
+                            {
+                                "int": "0.8"
+                            },
+                            {
+                                "float": "0.2"
+                            },
+                            {
+                                "object": "0.1"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                },
+                "area": {
+                    "name": "area",
+                    "param": {
+                        "self": [
+                            {
+                                "Rectangle": "0.9"
+                            },
+                            {
+                                "Shape": "0.1"
+                            },
+                            {
+                                "object": "0.05"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                }
+            },
+            "variables": {}
+        }
+    }
+}

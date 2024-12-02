@@ -1,0 +1,30 @@
+{
+    "dec1": [
+        "function"
+    ],
+    "f": [
+        "function"
+    ],
+    "wrapper": [
+        "function"
+    ],
+    "a": [
+        "function"
+    ],
+    "func": [
+        "function"
+    ],
+    "b": [
+        "str",
+        "int",
+        "float"
+    ],
+    "result": [
+        "str",
+        "int",
+        "float"
+    ],
+    "c": [
+        "str"
+    ]
+}

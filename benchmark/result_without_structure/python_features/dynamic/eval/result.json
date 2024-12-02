@@ -1,0 +1,7 @@
+{
+    "a": [
+        "str",
+        "Any",
+        "Union[str, Any]"
+    ]
+}

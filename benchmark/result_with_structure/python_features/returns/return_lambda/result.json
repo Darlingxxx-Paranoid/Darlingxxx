@@ -1,0 +1,45 @@
+{
+    "variables": {
+        "f": [
+            {
+                "function": "0.9"
+            },
+            {
+                "callable": "0.8"
+            },
+            {
+                "object": "0.6"
+            }
+        ],
+        "a": [
+            {
+                "int": "0.9"
+            },
+            {
+                "float": "0.7"
+            },
+            {
+                "object": "0.5"
+            }
+        ],
+        "b": [
+            {
+                "float": "0.9"
+            },
+            {
+                "int": "0.7"
+            },
+            {
+                "object": "0.5"
+            }
+        ]
+    },
+    "functions": {
+        "func": {
+            "name": "func",
+            "param": {},
+            "variables": {}
+        }
+    },
+    "classes": {}
+}

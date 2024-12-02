@@ -1,0 +1,27 @@
+{
+    "a": [
+        "str",
+        "NoneType",
+        "Error"
+    ],
+    "b": [
+        "TypeError",
+        "NoneType",
+        "Error"
+    ],
+    "func": [
+        "function",
+        "callable",
+        "Error"
+    ],
+    "return_func": [
+        "function",
+        "callable",
+        "Error"
+    ],
+    "nested_return_func": [
+        "function",
+        "callable",
+        "Error"
+    ]
+}

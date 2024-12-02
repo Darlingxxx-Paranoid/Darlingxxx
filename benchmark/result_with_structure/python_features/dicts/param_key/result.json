@@ -1,0 +1,67 @@
+{
+    "variables": {
+        "d": [
+            {
+                "dict": "1.0"
+            },
+            {
+                "NoneType": "0.0"
+            },
+            {
+                "list": "0.0"
+            }
+        ],
+        "e": [
+            {
+                "str": "1.0"
+            },
+            {
+                "NoneType": "0.0"
+            },
+            {
+                "int": "0.0"
+            }
+        ],
+        "f": [
+            {
+                "int": "1.0"
+            },
+            {
+                "NoneType": "0.0"
+            },
+            {
+                "str": "0.0"
+            }
+        ]
+    },
+    "functions": {
+        "func1": {
+            "name": "func1",
+            "param": {
+                "key": [
+                    {
+                        "str": "1.0"
+                    },
+                    {
+                        "NoneType": "0.0"
+                    },
+                    {
+                        "int": "0.0"
+                    }
+                ]
+            },
+            "variables": {}
+        },
+        "func2": {
+            "name": "func2",
+            "param": {},
+            "variables": {}
+        },
+        "func3": {
+            "name": "func3",
+            "param": {},
+            "variables": {}
+        }
+    },
+    "classes": {}
+}

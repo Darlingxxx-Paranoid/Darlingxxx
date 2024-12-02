@@ -1,0 +1,71 @@
+{
+    "variables": {
+        "d": [
+            {
+                "str": "1.0"
+            },
+            {
+                "NoneType": "0.0"
+            },
+            {
+                "int": "0.0"
+            }
+        ],
+        "e": [
+            {
+                "int": "1.0"
+            },
+            {
+                "NoneType": "0.0"
+            },
+            {
+                "str": "0.0"
+            }
+        ],
+        "f": [
+            {
+                "float": "1.0"
+            },
+            {
+                "NoneType": "0.0"
+            },
+            {
+                "str": "0.0"
+            }
+        ],
+        "g": [
+            {
+                "list": "1.0"
+            },
+            {
+                "NoneType": "0.0"
+            },
+            {
+                "str": "0.0"
+            }
+        ]
+    },
+    "functions": {
+        "func1": {
+            "name": "func1",
+            "param": {},
+            "variables": {}
+        },
+        "func2": {
+            "name": "func2",
+            "param": {},
+            "variables": {}
+        },
+        "func3": {
+            "name": "func3",
+            "param": {},
+            "variables": {}
+        },
+        "func4": {
+            "name": "func4",
+            "param": {},
+            "variables": {}
+        }
+    },
+    "classes": {}
+}

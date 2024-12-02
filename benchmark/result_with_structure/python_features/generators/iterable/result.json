@@ -1,0 +1,109 @@
+{
+    "variables": {
+        "output_list": [
+            {
+                "list": "0.9"
+            },
+            {
+                "generator": "0.1"
+            },
+            {
+                "tuple": "0.05"
+            }
+        ]
+    },
+    "functions": {},
+    "classes": {
+        "func": {
+            "name": "func",
+            "functions": {
+                "__init__": {
+                    "name": "__init__",
+                    "param": {
+                        "self": [
+                            {
+                                "func": "1.0"
+                            },
+                            {
+                                "object": "0.05"
+                            },
+                            {
+                                "NoneType": "0.01"
+                            }
+                        ],
+                        "n": [
+                            {
+                                "int": "0.9"
+                            },
+                            {
+                                "float": "0.05"
+                            },
+                            {
+                                "str": "0.02"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                },
+                "__iter__": {
+                    "name": "__iter__",
+                    "param": {
+                        "self": [
+                            {
+                                "func": "1.0"
+                            },
+                            {
+                                "object": "0.05"
+                            },
+                            {
+                                "NoneType": "0.01"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                },
+                "__next__": {
+                    "name": "__next__",
+                    "param": {
+                        "self": [
+                            {
+                                "func": "1.0"
+                            },
+                            {
+                                "object": "0.05"
+                            },
+                            {
+                                "NoneType": "0.01"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                }
+            },
+            "variables": {
+                "n": [
+                    {
+                        "int": "0.9"
+                    },
+                    {
+                        "float": "0.05"
+                    },
+                    {
+                        "str": "0.02"
+                    }
+                ],
+                "num": [
+                    {
+                        "int": "0.9"
+                    },
+                    {
+                        "float": "0.05"
+                    },
+                    {
+                        "NoneType": "0.02"
+                    }
+                ]
+            }
+        }
+    }
+}

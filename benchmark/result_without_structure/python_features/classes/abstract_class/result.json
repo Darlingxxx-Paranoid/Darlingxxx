@@ -1,0 +1,37 @@
+{
+    "Shape": [
+        "type",
+        "ABC",
+        "class"
+    ],
+    "Rectangle": [
+        "type",
+        "class",
+        "Shape"
+    ],
+    "self": [
+        "Rectangle",
+        "object",
+        "Shape"
+    ],
+    "width": [
+        "int",
+        "float",
+        "str"
+    ],
+    "height": [
+        "int",
+        "float",
+        "str"
+    ],
+    "a": [
+        "Rectangle",
+        "object",
+        "Shape"
+    ],
+    "b": [
+        "int",
+        "float",
+        "object"
+    ]
+}

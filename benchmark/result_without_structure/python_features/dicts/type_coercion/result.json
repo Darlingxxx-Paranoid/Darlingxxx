@@ -1,0 +1,17 @@
+{
+    "d": [
+        "dict[int, Callable[[], str]]",
+        "dict[str, Callable[[], int]]",
+        "dict[Union[int, str], Callable[[], Union[str, int]]]"
+    ],
+    "e": [
+        "str",
+        "Any",
+        "object"
+    ],
+    "f": [
+        "int",
+        "Any",
+        "object"
+    ]
+}

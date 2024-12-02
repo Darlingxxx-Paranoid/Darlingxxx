@@ -1,0 +1,25 @@
+{
+    "A": [
+        "type",
+        "class",
+        "object"
+    ],
+    "a": [
+        "A",
+        "object",
+        "instance"
+    ],
+    "b": [
+        "str"
+    ],
+    "self": [
+        "A",
+        "object",
+        "instance"
+    ],
+    "smth": [
+        "method",
+        "function",
+        "callable"
+    ]
+}

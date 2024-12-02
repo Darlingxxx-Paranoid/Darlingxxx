@@ -1,0 +1,103 @@
+{
+    "variables": {
+        "i": [
+            {
+                "str": "1.0"
+            },
+            {
+                "int": "0.0"
+            },
+            {
+                "float": "0.0"
+            }
+        ],
+        "j": [
+            {
+                "int": "1.0"
+            },
+            {
+                "float": "0.0"
+            },
+            {
+                "str": "0.0"
+            }
+        ],
+        "k": [
+            {
+                "float": "1.0"
+            },
+            {
+                "int": "0.0"
+            },
+            {
+                "str": "0.0"
+            }
+        ],
+        "h": [
+            {
+                "list": "1.0"
+            },
+            {
+                "int": "0.0"
+            },
+            {
+                "str": "0.0"
+            }
+        ],
+        "l": [
+            {
+                "NoneType": "1.0"
+            },
+            {
+                "str": "0.0"
+            },
+            {
+                "int": "0.0"
+            }
+        ],
+        "m": [
+            {
+                "dict": "1.0"
+            },
+            {
+                "str": "0.0"
+            },
+            {
+                "int": "0.0"
+            }
+        ]
+    },
+    "functions": {
+        "func1": {
+            "name": "func1",
+            "param": {},
+            "variables": {}
+        },
+        "func2": {
+            "name": "func2",
+            "param": {},
+            "variables": {}
+        },
+        "func3": {
+            "name": "func3",
+            "param": {},
+            "variables": {}
+        },
+        "func4": {
+            "name": "func4",
+            "param": {},
+            "variables": {}
+        },
+        "func5": {
+            "name": "func5",
+            "param": {},
+            "variables": {}
+        },
+        "func6": {
+            "name": "func6",
+            "param": {},
+            "variables": {}
+        }
+    },
+    "classes": {}
+}

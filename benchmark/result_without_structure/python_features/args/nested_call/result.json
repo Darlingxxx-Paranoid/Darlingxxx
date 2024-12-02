@@ -1,0 +1,20 @@
+{
+    "nested_func": [
+        "function"
+    ],
+    "param_func": [
+        "function"
+    ],
+    "func": [
+        "function"
+    ],
+    "b": [
+        "function"
+    ],
+    "c": [
+        "function"
+    ],
+    "d": [
+        "string"
+    ]
+}

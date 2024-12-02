@@ -1,0 +1,52 @@
+{
+    "ArithmeticOperation": [
+        "class",
+        "type",
+        "object"
+    ],
+    "arith_op": [
+        "ArithmeticOperation",
+        "object",
+        "instance"
+    ],
+    "result1": [
+        "int",
+        "number",
+        "computed value"
+    ],
+    "result": [
+        "int",
+        "number",
+        "computed value"
+    ],
+    "self": [
+        "ArithmeticOperation",
+        "object",
+        "instance"
+    ],
+    "a": [
+        "int",
+        "number",
+        "input parameter"
+    ],
+    "b": [
+        "int",
+        "number",
+        "input parameter"
+    ],
+    "c": [
+        "int",
+        "number",
+        "input parameter"
+    ],
+    "nested": [
+        "ArithmeticOperation.Nested",
+        "object",
+        "instance"
+    ],
+    "nested2": [
+        "ArithmeticOperation.Nested.Nested2",
+        "object",
+        "instance"
+    ]
+}

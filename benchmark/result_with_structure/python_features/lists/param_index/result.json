@@ -1,0 +1,51 @@
+{
+    "variables": {
+        "ls": [
+            {
+                "list": "0.9"
+            },
+            {
+                "tuple": "0.05"
+            },
+            {
+                "dict": "0.05"
+            }
+        ],
+        "a": [
+            {
+                "int": "0.8"
+            },
+            {
+                "str": "0.1"
+            },
+            {
+                "NoneType": "0.1"
+            }
+        ]
+    },
+    "functions": {
+        "func2": {
+            "name": "func2",
+            "param": {},
+            "variables": {}
+        },
+        "func1": {
+            "name": "func1",
+            "param": {
+                "key": [
+                    {
+                        "int": "0.9"
+                    },
+                    {
+                        "str": "0.05"
+                    },
+                    {
+                        "float": "0.05"
+                    }
+                ]
+            },
+            "variables": {}
+        }
+    },
+    "classes": {}
+}

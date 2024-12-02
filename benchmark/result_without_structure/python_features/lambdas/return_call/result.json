@@ -1,0 +1,12 @@
+{
+    "func": [
+        "function"
+    ],
+    "y": [
+        "function",
+        "callable"
+    ],
+    "a": [
+        "int"
+    ]
+}

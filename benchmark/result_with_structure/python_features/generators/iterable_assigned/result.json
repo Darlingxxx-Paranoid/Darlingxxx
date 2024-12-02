@@ -1,0 +1,109 @@
+{
+    "variables": {
+        "c": [
+            {
+                "Cls": "0.9"
+            },
+            {
+                "generator": "0.05"
+            },
+            {
+                "object": "0.05"
+            }
+        ],
+        "output_list": [
+            {
+                "list": "0.95"
+            },
+            {
+                "object": "0.03"
+            },
+            {
+                "NoneType": "0.02"
+            }
+        ]
+    },
+    "functions": {},
+    "classes": {
+        "Cls": {
+            "name": "Cls",
+            "functions": {
+                "__init__": {
+                    "name": "__init__",
+                    "param": {
+                        "self": [
+                            {
+                                "Cls": "0.98"
+                            },
+                            {
+                                "object": "0.01"
+                            },
+                            {
+                                "NoneType": "0.01"
+                            }
+                        ],
+                        "max": [
+                            {
+                                "int": "0.9"
+                            },
+                            {
+                                "float": "0.08"
+                            },
+                            {
+                                "NoneType": "0.02"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                },
+                "__iter__": {
+                    "name": "__iter__",
+                    "param": {
+                        "self": [
+                            {
+                                "Cls": "0.98"
+                            },
+                            {
+                                "object": "0.01"
+                            },
+                            {
+                                "NoneType": "0.01"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                },
+                "__next__": {
+                    "name": "__next__",
+                    "param": {
+                        "self": [
+                            {
+                                "Cls": "0.98"
+                            },
+                            {
+                                "object": "0.01"
+                            },
+                            {
+                                "NoneType": "0.01"
+                            }
+                        ]
+                    },
+                    "variables": {
+                        "result": [
+                            {
+                                "int": "0.95"
+                            },
+                            {
+                                "float": "0.03"
+                            },
+                            {
+                                "NoneType": "0.02"
+                            }
+                        ]
+                    }
+                }
+            },
+            "variables": {}
+        }
+    }
+}

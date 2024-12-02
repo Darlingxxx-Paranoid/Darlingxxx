@@ -1,0 +1,39 @@
+{
+    "variables": {
+        "keys": [
+            {
+                "list[str]": "0.9"
+            },
+            {
+                "list": "0.8"
+            },
+            {
+                "object": "0.6"
+            }
+        ],
+        "values": [
+            {
+                "list[int]": "0.9"
+            },
+            {
+                "list": "0.8"
+            },
+            {
+                "object": "0.6"
+            }
+        ],
+        "my_dict": [
+            {
+                "dict[str, int]": "0.9"
+            },
+            {
+                "dict": "0.8"
+            },
+            {
+                "object": "0.6"
+            }
+        ]
+    },
+    "functions": {},
+    "classes": {}
+}

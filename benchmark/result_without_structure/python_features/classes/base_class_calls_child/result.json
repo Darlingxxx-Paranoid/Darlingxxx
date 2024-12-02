@@ -1,0 +1,52 @@
+{
+    "A": [
+        "type",
+        "class",
+        "object"
+    ],
+    "B": [
+        "type",
+        "class",
+        "object"
+    ],
+    "func": [
+        "function",
+        "method",
+        "callable"
+    ],
+    "func2": [
+        "function",
+        "method",
+        "callable"
+    ],
+    "child": [
+        "function",
+        "method",
+        "callable"
+    ],
+    "b": [
+        "B",
+        "object",
+        "instance"
+    ],
+    "d": [
+        "str",
+        "string",
+        "text"
+    ],
+    "C": [
+        "type",
+        "class",
+        "object"
+    ],
+    "c": [
+        "C",
+        "object",
+        "instance"
+    ],
+    "e": [
+        "int",
+        "integer",
+        "number"
+    ]
+}

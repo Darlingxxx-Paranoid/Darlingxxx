@@ -1,0 +1,61 @@
+{
+    "variables": {
+        "a": [
+            {
+                "function": "0.5"
+            },
+            {
+                "callable": "0.3"
+            },
+            {
+                "str": "0.2"
+            }
+        ],
+        "b": [
+            {
+                "function": "0.5"
+            },
+            {
+                "callable": "0.3"
+            },
+            {
+                "str": "0.2"
+            }
+        ],
+        "c": [
+            {
+                "str": "0.6"
+            },
+            {
+                "any": "0.2"
+            },
+            {
+                "function_result": "0.2"
+            }
+        ],
+        "d": [
+            {
+                "int": "0.6"
+            },
+            {
+                "any": "0.2"
+            },
+            {
+                "function_result": "0.2"
+            }
+        ]
+    },
+    "functions": {
+        "func1": {
+            "name": "func1",
+            "param": {},
+            "variables": {}
+        },
+        "func2": {
+            "name": "func2",
+            "param": {},
+            "variables": {}
+        }
+    },
+    "classes": {}
+}

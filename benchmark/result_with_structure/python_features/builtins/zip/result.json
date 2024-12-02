@@ -1,0 +1,50 @@
+{
+    "variables": {
+        "names": [
+            {
+                "list": "0.9"
+            },
+            {
+                "tuple": "0.05"
+            },
+            {
+                "str": "0.05"
+            }
+        ],
+        "ages": [
+            {
+                "list": "0.9"
+            },
+            {
+                "tuple": "0.05"
+            },
+            {
+                "int": "0.05"
+            }
+        ],
+        "combined": [
+            {
+                "zip": "0.9"
+            },
+            {
+                "iterator": "0.1"
+            },
+            {
+                "list": "0.05"
+            }
+        ],
+        "result": [
+            {
+                "list": "0.9"
+            },
+            {
+                "tuple": "0.05"
+            },
+            {
+                "iterator": "0.05"
+            }
+        ]
+    },
+    "functions": {},
+    "classes": {}
+}

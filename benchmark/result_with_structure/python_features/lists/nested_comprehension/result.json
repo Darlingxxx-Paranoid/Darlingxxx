@@ -1,0 +1,52 @@
+{
+    "variables": {
+        "c": [
+            {
+                "list": "0.9"
+            },
+            {
+                "list[int]": "0.8"
+            },
+            {
+                "object": "0.1"
+            }
+        ]
+    },
+    "functions": {
+        "func1": {
+            "name": "func1",
+            "param": {
+                "a": [
+                    {
+                        "int": "0.9"
+                    },
+                    {
+                        "float": "0.1"
+                    },
+                    {
+                        "object": "0.05"
+                    }
+                ]
+            },
+            "variables": {}
+        },
+        "func2": {
+            "name": "func2",
+            "param": {
+                "a": [
+                    {
+                        "int": "0.9"
+                    },
+                    {
+                        "float": "0.1"
+                    },
+                    {
+                        "object": "0.05"
+                    }
+                ]
+            },
+            "variables": {}
+        }
+    },
+    "classes": {}
+}

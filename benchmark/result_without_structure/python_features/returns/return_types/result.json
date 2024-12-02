@@ -1,0 +1,27 @@
+{
+    "a": [
+        "tuple",
+        "sequence",
+        "iterable"
+    ],
+    "b": [
+        "dict",
+        "mapping",
+        "iterable"
+    ],
+    "c": [
+        "namedtuple",
+        "tuple",
+        "iterable"
+    ],
+    "d": [
+        "set",
+        "collection",
+        "iterable"
+    ],
+    "e": [
+        "list",
+        "sequence",
+        "iterable"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "a": [
+        "A",
+        "B",
+        "object"
+    ],
+    "b": [
+        "int",
+        "str",
+        "Any"
+    ],
+    "a.smth": [
+        "function",
+        "method",
+        "Any"
+    ],
+    "A.func": [
+        "method",
+        "function",
+        "callable"
+    ],
+    "B.func": [
+        "method",
+        "function",
+        "callable"
+    ]
+}

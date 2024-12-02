@@ -1,0 +1,27 @@
+{
+    "arith_op": [
+        "ArithmeticOperation"
+    ],
+    "result1": [
+        "int"
+    ],
+    "self.a": [
+        "int"
+    ],
+    "self.result": [
+        "int",
+        "NoneType"
+    ],
+    "self.nested": [
+        "ArithmeticOperation.Nested"
+    ],
+    "self.nested.b": [
+        "int"
+    ],
+    "a": [
+        "int"
+    ],
+    "b": [
+        "int"
+    ]
+}

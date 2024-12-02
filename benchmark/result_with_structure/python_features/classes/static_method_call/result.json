@@ -1,0 +1,29 @@
+{
+    "variables": {
+        "a": [
+            {
+                "str": "1.0"
+            },
+            {
+                "NoneType": "0.0"
+            },
+            {
+                "int": "0.0"
+            }
+        ]
+    },
+    "functions": {},
+    "classes": {
+        "MyClass": {
+            "name": "MyClass",
+            "functions": {
+                "func": {
+                    "name": "func",
+                    "param": {},
+                    "variables": {}
+                }
+            },
+            "variables": {}
+        }
+    }
+}

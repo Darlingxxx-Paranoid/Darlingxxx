@@ -1,0 +1,40 @@
+{
+    "a": [
+        "function"
+    ],
+    "b": [
+        "function"
+    ],
+    "c": [
+        "function"
+    ],
+    "d": [
+        "function"
+    ],
+    "e": [
+        "function"
+    ],
+    "f": [
+        "function"
+    ],
+    "h": [
+        "list",
+        "NoneType",
+        "unknown"
+    ],
+    "i": [
+        "str"
+    ],
+    "j": [
+        "int"
+    ],
+    "k": [
+        "float"
+    ],
+    "l": [
+        "NoneType"
+    ],
+    "m": [
+        "dict"
+    ]
+}

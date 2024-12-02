@@ -1,0 +1,18 @@
+{
+    "string": [
+        "str"
+    ],
+    "words": [
+        "list",
+        "list[str]"
+    ],
+    "word_count": [
+        "int"
+    ],
+    "word": [
+        "str"
+    ],
+    "a": [
+        "int"
+    ]
+}

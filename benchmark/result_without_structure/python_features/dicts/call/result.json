@@ -1,0 +1,27 @@
+{
+    "func1": [
+        "function",
+        "callable",
+        "object"
+    ],
+    "func2": [
+        "function",
+        "callable",
+        "object"
+    ],
+    "d": [
+        "dict[str, function | int]",
+        "dictionary",
+        "mapping"
+    ],
+    "e": [
+        "str",
+        "string",
+        "text"
+    ],
+    "f": [
+        "int",
+        "integer",
+        "number"
+    ]
+}

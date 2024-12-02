@@ -1,0 +1,102 @@
+{
+    "variables": {
+        "d": [
+            {
+                "int": "0.9"
+            },
+            {
+                "float": "0.1"
+            },
+            {
+                "none": "0.0"
+            }
+        ]
+    },
+    "functions": {
+        "func3": {
+            "name": "func3",
+            "param": {
+                "a": [
+                    {
+                        "function": "0.9"
+                    },
+                    {
+                        "callable": "0.1"
+                    },
+                    {
+                        "none": "0.0"
+                    }
+                ]
+            },
+            "variables": {}
+        },
+        "func2": {
+            "name": "func2",
+            "param": {
+                "a": [
+                    {
+                        "function": "0.9"
+                    },
+                    {
+                        "callable": "0.1"
+                    },
+                    {
+                        "none": "0.0"
+                    }
+                ],
+                "b": [
+                    {
+                        "function": "0.9"
+                    },
+                    {
+                        "callable": "0.1"
+                    },
+                    {
+                        "none": "0.0"
+                    }
+                ]
+            },
+            "variables": {}
+        },
+        "func1": {
+            "name": "func1",
+            "param": {
+                "a": [
+                    {
+                        "function": "0.9"
+                    },
+                    {
+                        "callable": "0.1"
+                    },
+                    {
+                        "none": "0.0"
+                    }
+                ],
+                "b": [
+                    {
+                        "function": "0.9"
+                    },
+                    {
+                        "callable": "0.1"
+                    },
+                    {
+                        "none": "0.0"
+                    }
+                ],
+                "c": [
+                    {
+                        "function": "0.9"
+                    },
+                    {
+                        "callable": "0.1"
+                    },
+                    {
+                        "none": "0.0"
+                    }
+                ]
+            },
+            "variables": {}
+        }
+    },
+    "classes": {}
+}

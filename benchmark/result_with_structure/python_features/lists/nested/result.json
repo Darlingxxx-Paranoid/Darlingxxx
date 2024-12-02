@@ -1,0 +1,61 @@
+{
+    "variables": {
+        "ls": [
+            {
+                "list": "0.9"
+            },
+            {
+                "list[list]": "0.7"
+            },
+            {
+                "list[list[function]]": "0.6"
+            }
+        ],
+        "a": [
+            {
+                "list": "0.9"
+            },
+            {
+                "list[function]": "0.8"
+            },
+            {
+                "list[list]": "0.6"
+            }
+        ],
+        "b": [
+            {
+                "function": "0.95"
+            },
+            {
+                "callable": "0.6"
+            },
+            {
+                "object": "0.4"
+            }
+        ],
+        "c": [
+            {
+                "int": "0.9"
+            },
+            {
+                "object": "0.3"
+            },
+            {
+                "str": "0.1"
+            }
+        ]
+    },
+    "functions": {
+        "func1": {
+            "name": "func1",
+            "param": {},
+            "variables": {}
+        },
+        "func2": {
+            "name": "func2",
+            "param": {},
+            "variables": {}
+        }
+    },
+    "classes": {}
+}

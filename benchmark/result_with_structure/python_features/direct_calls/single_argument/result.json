@@ -1,0 +1,52 @@
+{
+    "variables": {
+        "result": [
+            {
+                "int": "0.9"
+            },
+            {
+                "float": "0.1"
+            },
+            {
+                "str": "0.0"
+            }
+        ]
+    },
+    "functions": {
+        "add_one": {
+            "name": "add_one",
+            "param": {
+                "x": [
+                    {
+                        "int": "0.8"
+                    },
+                    {
+                        "float": "0.2"
+                    },
+                    {
+                        "str": "0.0"
+                    }
+                ]
+            },
+            "variables": {}
+        },
+        "double": {
+            "name": "double",
+            "param": {
+                "x": [
+                    {
+                        "int": "0.8"
+                    },
+                    {
+                        "float": "0.2"
+                    },
+                    {
+                        "str": "0.0"
+                    }
+                ]
+            },
+            "variables": {}
+        }
+    },
+    "classes": {}
+}

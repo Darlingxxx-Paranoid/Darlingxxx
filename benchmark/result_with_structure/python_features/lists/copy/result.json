@@ -1,0 +1,28 @@
+{
+    "variables": {
+        "my_list": [
+            {
+                "list": "0.9"
+            },
+            {
+                "tuple": "0.05"
+            },
+            {
+                "dict": "0.05"
+            }
+        ],
+        "copy_of_my_list": [
+            {
+                "list": "0.9"
+            },
+            {
+                "tuple": "0.05"
+            },
+            {
+                "dict": "0.05"
+            }
+        ]
+    },
+    "functions": {},
+    "classes": {}
+}

@@ -1,0 +1,125 @@
+{
+    "variables": {
+        "arith_op": [
+            {
+                "ArithmeticOperation": "0.9"
+            },
+            {
+                "object": "0.05"
+            },
+            {
+                "any": "0.05"
+            }
+        ],
+        "result1": [
+            {
+                "int": "0.9"
+            },
+            {
+                "float": "0.1"
+            },
+            {
+                "any": "0.05"
+            }
+        ]
+    },
+    "functions": {},
+    "classes": {
+        "ArithmeticOperation": {
+            "name": "ArithmeticOperation",
+            "functions": {
+                "__init__": {
+                    "name": "__init__",
+                    "param": {
+                        "self": [
+                            {
+                                "ArithmeticOperation": "0.9"
+                            },
+                            {
+                                "object": "0.05"
+                            },
+                            {
+                                "any": "0.05"
+                            }
+                        ],
+                        "a": [
+                            {
+                                "int": "0.8"
+                            },
+                            {
+                                "float": "0.15"
+                            },
+                            {
+                                "any": "0.05"
+                            }
+                        ],
+                        "b": [
+                            {
+                                "int": "0.8"
+                            },
+                            {
+                                "float": "0.15"
+                            },
+                            {
+                                "any": "0.05"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                },
+                "compute": {
+                    "name": "compute",
+                    "param": {
+                        "self": [
+                            {
+                                "ArithmeticOperation": "0.9"
+                            },
+                            {
+                                "object": "0.05"
+                            },
+                            {
+                                "any": "0.05"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                }
+            },
+            "variables": {
+                "a": [
+                    {
+                        "int": "0.8"
+                    },
+                    {
+                        "float": "0.15"
+                    },
+                    {
+                        "any": "0.05"
+                    }
+                ],
+                "b": [
+                    {
+                        "int": "0.8"
+                    },
+                    {
+                        "float": "0.15"
+                    },
+                    {
+                        "any": "0.05"
+                    }
+                ],
+                "result": [
+                    {
+                        "int": "0.8"
+                    },
+                    {
+                        "float": "0.15"
+                    },
+                    {
+                        "any": "0.05"
+                    }
+                ]
+            }
+        }
+    }
+}

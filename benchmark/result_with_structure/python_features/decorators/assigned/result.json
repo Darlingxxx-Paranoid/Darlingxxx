@@ -1,0 +1,74 @@
+{
+    "variables": {
+        "a": [
+            {
+                "function": "0.9"
+            },
+            {
+                "decorator": "0.8"
+            },
+            {
+                "callable": "0.7"
+            }
+        ],
+        "c": [
+            {
+                "str": "0.9"
+            },
+            {
+                "any": "0.6"
+            },
+            {
+                "object": "0.4"
+            }
+        ]
+    },
+    "functions": {
+        "dec1": {
+            "name": "dec1",
+            "param": {
+                "f": [
+                    {
+                        "callable": "0.9"
+                    },
+                    {
+                        "function": "0.8"
+                    },
+                    {
+                        "decorator": "0.7"
+                    }
+                ]
+            },
+            "variables": {}
+        },
+        "func": {
+            "name": "func",
+            "param": {
+                "a": [
+                    {
+                        "str": "0.8"
+                    },
+                    {
+                        "int": "0.3"
+                    },
+                    {
+                        "object": "0.2"
+                    }
+                ],
+                "b": [
+                    {
+                        "str": "0.8"
+                    },
+                    {
+                        "int": "0.3"
+                    },
+                    {
+                        "object": "0.2"
+                    }
+                ]
+            },
+            "variables": {}
+        }
+    },
+    "classes": {}
+}

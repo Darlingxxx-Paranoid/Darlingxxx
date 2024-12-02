@@ -1,0 +1,51 @@
+{
+    "variables": {
+        "a": [
+            {
+                "function": "0.9"
+            },
+            {
+                "callable": "0.8"
+            },
+            {
+                "str": "0.1"
+            }
+        ],
+        "b": [
+            {
+                "str": "0.9"
+            },
+            {
+                "bytes": "0.05"
+            },
+            {
+                "object": "0.05"
+            }
+        ]
+    },
+    "functions": {
+        "return_func": {
+            "name": "return_func",
+            "param": {},
+            "variables": {}
+        },
+        "func": {
+            "name": "func",
+            "param": {},
+            "variables": {
+                "a": [
+                    {
+                        "function": "0.9"
+                    },
+                    {
+                        "callable": "0.8"
+                    },
+                    {
+                        "str": "0.1"
+                    }
+                ]
+            }
+        }
+    },
+    "classes": {}
+}

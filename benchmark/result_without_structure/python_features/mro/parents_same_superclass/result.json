@@ -1,0 +1,32 @@
+{
+    "A": [
+        "type",
+        "class",
+        "object"
+    ],
+    "B": [
+        "type",
+        "class",
+        "object"
+    ],
+    "C": [
+        "type",
+        "class",
+        "object"
+    ],
+    "D": [
+        "type",
+        "class",
+        "object"
+    ],
+    "d": [
+        "D",
+        "B",
+        "C"
+    ],
+    "e": [
+        "int",
+        "object",
+        "Any"
+    ]
+}

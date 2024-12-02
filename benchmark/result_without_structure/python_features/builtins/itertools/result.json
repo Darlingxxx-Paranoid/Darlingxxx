@@ -1,0 +1,72 @@
+{
+    "data": [
+        "list",
+        "list[dict]",
+        "list[dict[str, str]]"
+    ],
+    "sorted_data": [
+        "list",
+        "list[dict]",
+        "list[dict[str, str]]"
+    ],
+    "grouped_data": [
+        "itertools._grouper",
+        "iterable",
+        "iterator"
+    ],
+    "city": [
+        "str",
+        "string",
+        "text"
+    ],
+    "group": [
+        "itertools._grouper",
+        "iterable",
+        "iterator"
+    ],
+    "counter": [
+        "itertools.count",
+        "iteration counter",
+        "generator"
+    ],
+    "cycler": [
+        "itertools.cycle",
+        "iterable",
+        "generator"
+    ],
+    "repeater": [
+        "itertools.repeat",
+        "iterable",
+        "generator"
+    ],
+    "chained": [
+        "itertools.chain",
+        "iterable",
+        "generator"
+    ],
+    "selector": [
+        "list",
+        "list[bool]",
+        "list[boolean]"
+    ],
+    "compressed": [
+        "itertools.compress",
+        "iterable",
+        "generator"
+    ],
+    "perms": [
+        "itertools.permutations",
+        "iterable",
+        "generator"
+    ],
+    "combs": [
+        "itertools.combinations",
+        "iterable",
+        "generator"
+    ],
+    "cartesian": [
+        "itertools.product",
+        "iterable",
+        "generator"
+    ]
+}

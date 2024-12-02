@@ -1,0 +1,22 @@
+{
+    "Cls": [
+        "type",
+        "class",
+        "object"
+    ],
+    "c": [
+        "Cls",
+        "iterable",
+        "iterator"
+    ],
+    "output_list": [
+        "list",
+        "iterable",
+        "sequence"
+    ],
+    "i": [
+        "int",
+        "number",
+        "element"
+    ]
+}

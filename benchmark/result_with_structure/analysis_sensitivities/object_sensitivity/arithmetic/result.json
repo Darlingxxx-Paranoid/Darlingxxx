@@ -1,0 +1,96 @@
+{
+    "variables": {
+        "arith_op1": [
+            {
+                "ArithmeticOperation": "1.0"
+            }
+        ],
+        "arith_op2": [
+            {
+                "ArithmeticOperation": "1.0"
+            }
+        ],
+        "result1": [
+            {
+                "int": "1.0"
+            }
+        ],
+        "result2": [
+            {
+                "str": "1.0"
+            }
+        ]
+    },
+    "functions": {},
+    "classes": {
+        "ArithmeticOperation": {
+            "name": "ArithmeticOperation",
+            "functions": {
+                "__init__": {
+                    "name": "__init__",
+                    "param": {
+                        "self": [
+                            {
+                                "ArithmeticOperation": "1.0"
+                            }
+                        ],
+                        "a": [
+                            {
+                                "int": "0.5"
+                            },
+                            {
+                                "str": "0.5"
+                            }
+                        ],
+                        "b": [
+                            {
+                                "int": "0.5"
+                            },
+                            {
+                                "str": "0.5"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                },
+                "compute": {
+                    "name": "compute",
+                    "param": {
+                        "self": [
+                            {
+                                "ArithmeticOperation": "1.0"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                }
+            },
+            "variables": {
+                "a": [
+                    {
+                        "int": "0.5"
+                    },
+                    {
+                        "str": "0.5"
+                    }
+                ],
+                "b": [
+                    {
+                        "int": "0.5"
+                    },
+                    {
+                        "str": "0.5"
+                    }
+                ],
+                "result": [
+                    {
+                        "int": "0.5"
+                    },
+                    {
+                        "str": "0.5"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "variables": {
+        "d": [
+            {
+                "dict[str, callable]": "0.9"
+            },
+            {
+                "dict": "0.1"
+            },
+            {
+                "Any": "0.0"
+            }
+        ],
+        "e": [
+            {
+                "str": "0.9"
+            },
+            {
+                "Any": "0.1"
+            },
+            {
+                "int": "0.0"
+            }
+        ]
+    },
+    "functions": {
+        "func1": {
+            "name": "func1",
+            "param": {},
+            "variables": {}
+        },
+        "func2": {
+            "name": "func2",
+            "param": {},
+            "variables": {}
+        }
+    },
+    "classes": {}
+}

@@ -1,0 +1,37 @@
+{
+    "c": [
+        "Cls",
+        "iterable",
+        "generator"
+    ],
+    "output_list": [
+        "list",
+        "sequence",
+        "collection"
+    ],
+    "self": [
+        "Cls",
+        "instance",
+        "object"
+    ],
+    "max": [
+        "int",
+        "numeric",
+        "scalar"
+    ],
+    "n": [
+        "int",
+        "numeric",
+        "scalar"
+    ],
+    "result": [
+        "int",
+        "numeric",
+        "scalar"
+    ],
+    "a": [
+        "list",
+        "sequence",
+        "collection"
+    ]
+}

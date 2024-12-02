@@ -1,0 +1,45 @@
+{
+    "variables": {
+        "a": [
+            {
+                "str": "1.0"
+            },
+            {
+                "NoneType": "0.0"
+            },
+            {
+                "int": "0.0"
+            }
+        ]
+    },
+    "functions": {
+        "dec": {
+            "name": "dec",
+            "param": {
+                "f": [
+                    {
+                        "function": "1.0"
+                    },
+                    {
+                        "Any": "0.0"
+                    },
+                    {
+                        "NoneType": "0.0"
+                    }
+                ]
+            },
+            "variables": {}
+        },
+        "func": {
+            "name": "func",
+            "param": {},
+            "variables": {}
+        },
+        "func2": {
+            "name": "func2",
+            "param": {},
+            "variables": {}
+        }
+    },
+    "classes": {}
+}

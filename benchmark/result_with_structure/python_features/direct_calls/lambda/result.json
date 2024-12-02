@@ -1,0 +1,17 @@
+{
+    "variables": {
+        "result": [
+            {
+                "int": "0.9"
+            },
+            {
+                "float": "0.1"
+            },
+            {
+                "str": "0.05"
+            }
+        ]
+    },
+    "functions": {},
+    "classes": {}
+}

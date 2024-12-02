@@ -1,0 +1,10 @@
+{
+    "func": [
+        "function"
+    ],
+    "a": [
+        "list",
+        "list[int]",
+        "list[T]"
+    ]
+}

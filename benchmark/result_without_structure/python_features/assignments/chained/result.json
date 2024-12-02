@@ -1,0 +1,22 @@
+{
+    "a": [
+        "function",
+        "function returning str",
+        "function returning int"
+    ],
+    "b": [
+        "function",
+        "function returning str",
+        "function returning int"
+    ],
+    "c": [
+        "str",
+        "str",
+        "str"
+    ],
+    "d": [
+        "int",
+        "int",
+        "int"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "keys": [
+        "list",
+        "list[str]",
+        "iterable"
+    ],
+    "values": [
+        "list",
+        "list[int]",
+        "iterable"
+    ],
+    "my_dict": [
+        "dict",
+        "dict[str, int]",
+        "mapping"
+    ]
+}

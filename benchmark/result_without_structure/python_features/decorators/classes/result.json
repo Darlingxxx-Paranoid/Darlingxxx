@@ -1,0 +1,27 @@
+{
+    "my_decorator": [
+        "function",
+        "callable",
+        "object"
+    ],
+    "NewClass": [
+        "type",
+        "class",
+        "object"
+    ],
+    "MyClass": [
+        "type",
+        "class",
+        "object"
+    ],
+    "a": [
+        "NewClass",
+        "MyClass",
+        "object"
+    ],
+    "b": [
+        "str",
+        "int",
+        "object"
+    ]
+}

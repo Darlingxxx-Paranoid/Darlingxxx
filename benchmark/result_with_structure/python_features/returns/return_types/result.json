@@ -1,0 +1,99 @@
+{
+    "variables": {
+        "a": [
+            {
+                "tuple": "0.9"
+            },
+            {
+                "list": "0.05"
+            },
+            {
+                "str": "0.05"
+            }
+        ],
+        "b": [
+            {
+                "dict": "0.9"
+            },
+            {
+                "collections.defaultdict": "0.05"
+            },
+            {
+                "str": "0.05"
+            }
+        ],
+        "c": [
+            {
+                "Point (namedtuple)": "0.9"
+            },
+            {
+                "tuple": "0.05"
+            },
+            {
+                "list": "0.05"
+            }
+        ],
+        "d": [
+            {
+                "set": "0.9"
+            },
+            {
+                "frozenset": "0.05"
+            },
+            {
+                "list": "0.05"
+            }
+        ],
+        "e": [
+            {
+                "list": "0.9"
+            },
+            {
+                "tuple": "0.05"
+            },
+            {
+                "set": "0.05"
+            }
+        ]
+    },
+    "functions": {
+        "func": {
+            "name": "func",
+            "param": {},
+            "variables": {}
+        },
+        "func1": {
+            "name": "func1",
+            "param": {},
+            "variables": {}
+        },
+        "func3": {
+            "name": "func3",
+            "param": {},
+            "variables": {
+                "Point": [
+                    {
+                        "type (class)": "0.9"
+                    },
+                    {
+                        "str": "0.05"
+                    },
+                    {
+                        "dict": "0.05"
+                    }
+                ]
+            }
+        },
+        "func4": {
+            "name": "func4",
+            "param": {},
+            "variables": {}
+        },
+        "func5": {
+            "name": "func5",
+            "param": {},
+            "variables": {}
+        }
+    },
+    "classes": {}
+}

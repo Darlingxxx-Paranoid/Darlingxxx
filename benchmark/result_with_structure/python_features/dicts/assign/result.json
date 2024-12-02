@@ -1,0 +1,39 @@
+{
+    "variables": {
+        "d": [
+            {
+                "dict": "0.9"
+            },
+            {
+                "object": "0.05"
+            },
+            {
+                "list": "0.05"
+            }
+        ],
+        "e": [
+            {
+                "str": "0.5"
+            },
+            {
+                "int": "0.5"
+            },
+            {
+                "None": "0.1"
+            }
+        ]
+    },
+    "functions": {
+        "func1": {
+            "name": "func1",
+            "param": {},
+            "variables": {}
+        },
+        "func2": {
+            "name": "func2",
+            "param": {},
+            "variables": {}
+        }
+    },
+    "classes": {}
+}

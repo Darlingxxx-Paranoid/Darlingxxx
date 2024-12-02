@@ -1,0 +1,22 @@
+{
+    "code": [
+        "str",
+        "bytes",
+        "NoneType"
+    ],
+    "code_obj": [
+        "code",
+        "object",
+        "NoneType"
+    ],
+    "a": [
+        "str",
+        "bytes",
+        "NoneType"
+    ],
+    "b": [
+        "str",
+        "bytes",
+        "NoneType"
+    ]
+}

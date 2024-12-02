@@ -1,0 +1,135 @@
+{
+    "variables": {
+        "arith_op": [
+            {
+                "ArithmeticOperation": "1.0"
+            }
+        ],
+        "result1": [
+            {
+                "int": "1.0"
+            }
+        ]
+    },
+    "functions": {},
+    "classes": {
+        "ArithmeticOperation": {
+            "name": "ArithmeticOperation",
+            "functions": {
+                "__init__": {
+                    "name": "__init__",
+                    "param": {
+                        "self": [
+                            {
+                                "ArithmeticOperation": "1.0"
+                            }
+                        ],
+                        "a": [
+                            {
+                                "int": "1.0"
+                            }
+                        ],
+                        "b": [
+                            {
+                                "int": "1.0"
+                            }
+                        ]
+                    },
+                    "variables": {
+                        "self.a": [
+                            {
+                                "int": "1.0"
+                            }
+                        ],
+                        "self.result": [
+                            {
+                                "NoneType": "1.0"
+                            }
+                        ],
+                        "self.nested": [
+                            {
+                                "ArithmeticOperation.Nested": "1.0"
+                            }
+                        ]
+                    }
+                },
+                "compute": {
+                    "name": "compute",
+                    "param": {
+                        "self": [
+                            {
+                                "ArithmeticOperation": "1.0"
+                            }
+                        ]
+                    },
+                    "variables": {
+                        "self.result": [
+                            {
+                                "int": "1.0"
+                            }
+                        ]
+                    }
+                }
+            },
+            "variables": {
+                "Nested": {
+                    "name": "Nested",
+                    "functions": {
+                        "__init__": {
+                            "name": "__init__",
+                            "param": {
+                                "self": [
+                                    {
+                                        "ArithmeticOperation.Nested": "1.0"
+                                    }
+                                ],
+                                "b": [
+                                    {
+                                        "int": "1.0"
+                                    }
+                                ]
+                            },
+                            "variables": {
+                                "self.nested2": [
+                                    {
+                                        "ArithmeticOperation.Nested.Nested2": "1.0"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "variables": {
+                        "Nested2": {
+                            "name": "Nested2",
+                            "functions": {
+                                "__init__": {
+                                    "name": "__init__",
+                                    "param": {
+                                        "self": [
+                                            {
+                                                "ArithmeticOperation.Nested.Nested2": "1.0"
+                                            }
+                                        ],
+                                        "c": [
+                                            {
+                                                "int": "1.0"
+                                            }
+                                        ]
+                                    },
+                                    "variables": {
+                                        "self.c": [
+                                            {
+                                                "int": "1.0"
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            "variables": {}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

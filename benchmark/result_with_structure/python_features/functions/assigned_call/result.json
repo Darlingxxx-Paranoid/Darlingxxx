@@ -1,0 +1,34 @@
+{
+    "variables": {
+        "a": [
+            {
+                "function": "0.9"
+            },
+            {
+                "callable": "0.8"
+            },
+            {
+                "object": "0.7"
+            }
+        ],
+        "b": [
+            {
+                "str": "0.9"
+            },
+            {
+                "object": "0.7"
+            },
+            {
+                "any": "0.6"
+            }
+        ]
+    },
+    "functions": {
+        "func": {
+            "name": "func",
+            "param": {},
+            "variables": {}
+        }
+    },
+    "classes": {}
+}

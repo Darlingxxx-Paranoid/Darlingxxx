@@ -1,0 +1,45 @@
+{
+    "variables": {
+        "p": [
+            {
+                "Person": "1.0"
+            }
+        ]
+    },
+    "functions": {
+        "func": {
+            "name": "func",
+            "param": {},
+            "variables": {}
+        }
+    },
+    "classes": {
+        "Person": {
+            "name": "Person",
+            "functions": {
+                "__init__": {
+                    "name": "__init__",
+                    "param": {
+                        "self": [
+                            {
+                                "Person": "1.0"
+                            }
+                        ],
+                        "name": [
+                            {
+                                "str": "1.0"
+                            }
+                        ],
+                        "age": [
+                            {
+                                "int": "1.0"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                }
+            },
+            "variables": {}
+        }
+    }
+}

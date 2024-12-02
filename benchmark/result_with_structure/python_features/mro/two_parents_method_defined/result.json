@@ -1,0 +1,132 @@
+{
+    "variables": {
+        "c": [
+            {
+                "C": "1.0"
+            },
+            {
+                "A": "0.0"
+            },
+            {
+                "B": "0.0"
+            }
+        ],
+        "d": [
+            {
+                "str": "1.0"
+            },
+            {
+                "float": "0.0"
+            },
+            {
+                "int": "0.0"
+            }
+        ]
+    },
+    "functions": {},
+    "classes": {
+        "A": {
+            "name": "A",
+            "functions": {
+                "__init__": {
+                    "name": "__init__",
+                    "param": {
+                        "self": [
+                            {
+                                "A": "1.0"
+                            },
+                            {
+                                "C": "0.0"
+                            },
+                            {
+                                "B": "0.0"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                },
+                "func": {
+                    "name": "func",
+                    "param": {
+                        "self": [
+                            {
+                                "A": "1.0"
+                            },
+                            {
+                                "C": "0.0"
+                            },
+                            {
+                                "B": "0.0"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                }
+            },
+            "variables": {}
+        },
+        "B": {
+            "name": "B",
+            "functions": {
+                "func": {
+                    "name": "func",
+                    "param": {
+                        "self": [
+                            {
+                                "B": "1.0"
+                            },
+                            {
+                                "C": "0.0"
+                            },
+                            {
+                                "A": "0.0"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                }
+            },
+            "variables": {}
+        },
+        "C": {
+            "name": "C",
+            "functions": {
+                "__init__": {
+                    "name": "__init__",
+                    "param": {
+                        "self": [
+                            {
+                                "C": "1.0"
+                            },
+                            {
+                                "A": "0.0"
+                            },
+                            {
+                                "B": "0.0"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                },
+                "func": {
+                    "name": "func",
+                    "param": {
+                        "self": [
+                            {
+                                "C": "1.0"
+                            },
+                            {
+                                "A": "0.0"
+                            },
+                            {
+                                "B": "0.0"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                }
+            },
+            "variables": {}
+        }
+    }
+}

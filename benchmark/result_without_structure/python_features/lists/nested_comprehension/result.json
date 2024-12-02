@@ -1,0 +1,19 @@
+{
+    "func1": [
+        "function"
+    ],
+    "func2": [
+        "function"
+    ],
+    "a": [
+        "int"
+    ],
+    "b": [
+        "int"
+    ],
+    "c": [
+        "list",
+        "list[int]",
+        "list[Any]"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "ls": [
+        "list[list[function]]"
+    ],
+    "a": [
+        "list[function]"
+    ],
+    "b": [
+        "function"
+    ],
+    "c": [
+        "int"
+    ]
+}

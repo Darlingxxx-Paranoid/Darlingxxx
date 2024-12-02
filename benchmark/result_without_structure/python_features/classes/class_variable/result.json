@@ -1,0 +1,37 @@
+{
+    "MyClass": [
+        "type",
+        "class",
+        "object"
+    ],
+    "a": [
+        "MyClass",
+        "instance",
+        "object"
+    ],
+    "b": [
+        "int",
+        "class attribute",
+        "variable"
+    ],
+    "class_var": [
+        "int",
+        "class attribute",
+        "variable"
+    ],
+    "self": [
+        "MyClass",
+        "instance",
+        "object"
+    ],
+    "instance_var": [
+        "int",
+        "instance attribute",
+        "variable"
+    ],
+    "10": [
+        "int",
+        "literal",
+        "constant"
+    ]
+}

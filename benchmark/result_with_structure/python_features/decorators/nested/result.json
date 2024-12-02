@@ -1,0 +1,84 @@
+{
+    "variables": {
+        "a": [
+            {
+                "int": "1.0"
+            },
+            {
+                "str": "0.0"
+            },
+            {
+                "bool": "0.0"
+            }
+        ]
+    },
+    "functions": {
+        "func": {
+            "name": "func",
+            "param": {},
+            "variables": {
+                "dec": [
+                    {
+                        "function": "1.0"
+                    },
+                    {
+                        "None": "0.0"
+                    },
+                    {
+                        "bool": "0.0"
+                    }
+                ],
+                "modified_inner": [
+                    {
+                        "function": "1.0"
+                    },
+                    {
+                        "None": "0.0"
+                    },
+                    {
+                        "bool": "0.0"
+                    }
+                ],
+                "inner": [
+                    {
+                        "function": "1.0"
+                    },
+                    {
+                        "None": "0.0"
+                    },
+                    {
+                        "bool": "0.0"
+                    }
+                ]
+            }
+        },
+        "dec": {
+            "name": "dec",
+            "param": {
+                "f": [
+                    {
+                        "function": "1.0"
+                    },
+                    {
+                        "None": "0.0"
+                    },
+                    {
+                        "bool": "0.0"
+                    }
+                ]
+            },
+            "variables": {}
+        },
+        "modified_inner": {
+            "name": "modified_inner",
+            "param": {},
+            "variables": {}
+        },
+        "inner": {
+            "name": "inner",
+            "param": {},
+            "variables": {}
+        }
+    },
+    "classes": {}
+}

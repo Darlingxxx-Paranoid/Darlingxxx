@@ -1,0 +1,69 @@
+{
+    "variables": {
+        "a": [
+            {
+                "MyClass": "0.99"
+            },
+            {
+                "object": "0.01"
+            },
+            {
+                "NoneType": "0.01"
+            }
+        ],
+        "b": [
+            {
+                "str": "0.99"
+            },
+            {
+                "object": "0.01"
+            },
+            {
+                "NoneType": "0.01"
+            }
+        ]
+    },
+    "functions": {},
+    "classes": {
+        "MyClass": {
+            "name": "MyClass",
+            "functions": {
+                "func2": {
+                    "name": "func2",
+                    "param": {
+                        "self": [
+                            {
+                                "MyClass": "0.99"
+                            },
+                            {
+                                "object": "0.01"
+                            },
+                            {
+                                "NoneType": "0.01"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                },
+                "func1": {
+                    "name": "func1",
+                    "param": {
+                        "self": [
+                            {
+                                "MyClass": "0.99"
+                            },
+                            {
+                                "object": "0.01"
+                            },
+                            {
+                                "NoneType": "0.01"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                }
+            },
+            "variables": {}
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "a": [
+        "function",
+        "callable",
+        "typing.Callable"
+    ],
+    "b": [
+        "function",
+        "callable",
+        "typing.Callable"
+    ],
+    "c": [
+        "str",
+        "string",
+        "builtins.str"
+    ]
+}

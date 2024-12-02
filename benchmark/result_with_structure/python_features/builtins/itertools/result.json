@@ -1,0 +1,138 @@
+{
+    "variables": {
+        "data": [
+            {
+                "list": "0.9"
+            },
+            {
+                "dict": "0.7"
+            },
+            {
+                "str": "0.2"
+            }
+        ],
+        "sorted_data": [
+            {
+                "list": "0.9"
+            },
+            {
+                "dict": "0.7"
+            },
+            {
+                "str": "0.2"
+            }
+        ],
+        "grouped_data": [
+            {
+                "itertools.groupby": "0.9"
+            },
+            {
+                "iterator": "0.7"
+            },
+            {
+                "object": "0.5"
+            }
+        ],
+        "counter": [
+            {
+                "itertools.count": "0.9"
+            },
+            {
+                "generator": "0.7"
+            },
+            {
+                "iterator": "0.5"
+            }
+        ],
+        "cycler": [
+            {
+                "itertools.cycle": "0.9"
+            },
+            {
+                "generator": "0.7"
+            },
+            {
+                "iterator": "0.5"
+            }
+        ],
+        "repeater": [
+            {
+                "itertools.repeat": "0.9"
+            },
+            {
+                "generator": "0.7"
+            },
+            {
+                "iterator": "0.5"
+            }
+        ],
+        "chained": [
+            {
+                "itertools.chain": "0.9"
+            },
+            {
+                "generator": "0.7"
+            },
+            {
+                "iterator": "0.5"
+            }
+        ],
+        "selector": [
+            {
+                "list": "0.9"
+            },
+            {
+                "bool": "0.8"
+            },
+            {
+                "object": "0.5"
+            }
+        ],
+        "compressed": [
+            {
+                "itertools.compress": "0.9"
+            },
+            {
+                "iterator": "0.7"
+            },
+            {
+                "generator": "0.5"
+            }
+        ],
+        "perms": [
+            {
+                "itertools.permutations": "0.9"
+            },
+            {
+                "iterator": "0.7"
+            },
+            {
+                "generator": "0.5"
+            }
+        ],
+        "combs": [
+            {
+                "itertools.combinations": "0.9"
+            },
+            {
+                "iterator": "0.7"
+            },
+            {
+                "generator": "0.5"
+            }
+        ],
+        "cartesian": [
+            {
+                "itertools.product": "0.9"
+            },
+            {
+                "iterator": "0.7"
+            },
+            {
+                "generator": "0.5"
+            }
+        ]
+    },
+    "functions": {},
+    "classes": {}
+}

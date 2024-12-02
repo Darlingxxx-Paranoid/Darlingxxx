@@ -1,0 +1,69 @@
+{
+    "variables": {
+        "a": [
+            {
+                "int": "0.9"
+            },
+            {
+                "float": "0.05"
+            },
+            {
+                "str": "0.05"
+            }
+        ]
+    },
+    "functions": {
+        "count_words": {
+            "name": "count_words",
+            "param": {
+                "string": [
+                    {
+                        "str": "0.95"
+                    },
+                    {
+                        "list": "0.03"
+                    },
+                    {
+                        "NoneType": "0.02"
+                    }
+                ]
+            },
+            "variables": {
+                "words": [
+                    {
+                        "list": "0.95"
+                    },
+                    {
+                        "str": "0.04"
+                    },
+                    {
+                        "NoneType": "0.01"
+                    }
+                ],
+                "word_count": [
+                    {
+                        "int": "0.98"
+                    },
+                    {
+                        "float": "0.01"
+                    },
+                    {
+                        "NoneType": "0.01"
+                    }
+                ],
+                "word": [
+                    {
+                        "str": "0.97"
+                    },
+                    {
+                        "NoneType": "0.02"
+                    },
+                    {
+                        "list": "0.01"
+                    }
+                ]
+            }
+        }
+    },
+    "classes": {}
+}

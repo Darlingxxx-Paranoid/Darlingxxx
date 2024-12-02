@@ -1,0 +1,27 @@
+{
+    "func2": [
+        "function",
+        null,
+        null
+    ],
+    "func": [
+        "function",
+        null,
+        null
+    ],
+    "key": [
+        "str",
+        null,
+        null
+    ],
+    "d": [
+        "dict",
+        null,
+        null
+    ],
+    "e": [
+        "str",
+        null,
+        null
+    ]
+}

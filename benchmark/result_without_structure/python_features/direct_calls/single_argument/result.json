@@ -1,0 +1,22 @@
+{
+    "add_one": [
+        "function",
+        "callable",
+        "object"
+    ],
+    "double": [
+        "function",
+        "callable",
+        "object"
+    ],
+    "x": [
+        "int",
+        "float",
+        "Any"
+    ],
+    "result": [
+        "int",
+        "float",
+        "Any"
+    ]
+}

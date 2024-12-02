@@ -1,0 +1,102 @@
+{
+    "variables": {
+        "d": [
+            {
+                "D": "0.9"
+            },
+            {
+                "B": "0.05"
+            },
+            {
+                "C": "0.05"
+            }
+        ],
+        "e": [
+            {
+                "int": "0.9"
+            },
+            {
+                "str": "0.1"
+            },
+            {
+                "NoneType": "0.0"
+            }
+        ]
+    },
+    "functions": {},
+    "classes": {
+        "A": {
+            "name": "A",
+            "functions": {
+                "__init__": {
+                    "name": "__init__",
+                    "param": {
+                        "self": [
+                            {
+                                "A": "0.9"
+                            },
+                            {
+                                "object": "0.1"
+                            },
+                            {
+                                "NoneType": "0.0"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                },
+                "func": {
+                    "name": "func",
+                    "param": {
+                        "self": [
+                            {
+                                "A": "0.9"
+                            },
+                            {
+                                "object": "0.1"
+                            },
+                            {
+                                "NoneType": "0.0"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                }
+            },
+            "variables": {}
+        },
+        "B": {
+            "name": "B",
+            "functions": {},
+            "variables": {}
+        },
+        "C": {
+            "name": "C",
+            "functions": {
+                "func": {
+                    "name": "func",
+                    "param": {
+                        "self": [
+                            {
+                                "C": "0.9"
+                            },
+                            {
+                                "A": "0.1"
+                            },
+                            {
+                                "object": "0.0"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                }
+            },
+            "variables": {}
+        },
+        "D": {
+            "name": "D",
+            "functions": {},
+            "variables": {}
+        }
+    }
+}

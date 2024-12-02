@@ -1,0 +1,98 @@
+{
+    "variables": {
+        "a": [
+            {
+                "A": "0.9"
+            },
+            {
+                "object": "0.1"
+            },
+            {
+                "NoneType": "0.05"
+            }
+        ],
+        "b": [
+            {
+                "str": "0.9"
+            },
+            {
+                "object": "0.1"
+            },
+            {
+                "NoneType": "0.05"
+            }
+        ]
+    },
+    "functions": {},
+    "classes": {
+        "A": {
+            "name": "A",
+            "functions": {
+                "__init__": {
+                    "name": "__init__",
+                    "param": {
+                        "self": [
+                            {
+                                "A": "0.9"
+                            },
+                            {
+                                "object": "0.1"
+                            },
+                            {
+                                "NoneType": "0.05"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                },
+                "func": {
+                    "name": "func",
+                    "param": {
+                        "self": [
+                            {
+                                "A": "0.9"
+                            },
+                            {
+                                "object": "0.1"
+                            },
+                            {
+                                "NoneType": "0.05"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                },
+                "func2": {
+                    "name": "func2",
+                    "param": {
+                        "self": [
+                            {
+                                "A": "0.9"
+                            },
+                            {
+                                "object": "0.1"
+                            },
+                            {
+                                "NoneType": "0.05"
+                            }
+                        ]
+                    },
+                    "variables": {}
+                }
+            },
+            "variables": {
+                "smth": [
+                    {
+                        "method": "0.9"
+                    },
+                    {
+                        "function": "0.1"
+                    },
+                    {
+                        "NoneType": "0.05"
+                    }
+                ]
+            }
+        }
+    }
+}

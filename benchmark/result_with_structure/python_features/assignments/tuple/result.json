@@ -1,0 +1,110 @@
+{
+    "variables": {
+        "a": [
+            {
+                "function": "1.0"
+            },
+            {
+                "none": "0.0"
+            },
+            {
+                "unknown": "0.0"
+            }
+        ],
+        "b": [
+            {
+                "function": "1.0"
+            },
+            {
+                "none": "0.0"
+            },
+            {
+                "unknown": "0.0"
+            }
+        ],
+        "f": [
+            {
+                "str": "1.0"
+            },
+            {
+                "none": "0.0"
+            },
+            {
+                "unknown": "0.0"
+            }
+        ],
+        "g": [
+            {
+                "int": "1.0"
+            },
+            {
+                "none": "0.0"
+            },
+            {
+                "unknown": "0.0"
+            }
+        ],
+        "c": [
+            {
+                "function": "1.0"
+            },
+            {
+                "none": "0.0"
+            },
+            {
+                "unknown": "0.0"
+            }
+        ],
+        "d": [
+            {
+                "function": "1.0"
+            },
+            {
+                "none": "0.0"
+            },
+            {
+                "unknown": "0.0"
+            }
+        ],
+        "e": [
+            {
+                "function": "1.0"
+            },
+            {
+                "none": "0.0"
+            },
+            {
+                "unknown": "0.0"
+            }
+        ],
+        "h": [
+            {
+                "float": "1.0"
+            },
+            {
+                "none": "0.0"
+            },
+            {
+                "unknown": "0.0"
+            }
+        ]
+    },
+    "functions": {
+        "func1": {
+            "name": "func1",
+            "param": {},
+            "variables": {}
+        },
+        "func2": {
+            "name": "func2",
+            "param": {},
+            "variables": {}
+        },
+        "func3": {
+            "name": "func3",
+            "param": {},
+            "variables": {}
+        }
+    },
+    "classes": {}
+}

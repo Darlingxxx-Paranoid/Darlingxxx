@@ -1,0 +1,12 @@
+{
+    "a": [
+        "str",
+        "Any",
+        "Union[str, bytes]"
+    ],
+    "b": [
+        "list[str]",
+        "list",
+        "Any"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "res": [
+        "map",
+        "iterable",
+        "iterator"
+    ],
+    "x": [
+        "int",
+        "str",
+        "float"
+    ],
+    "y": [
+        "int",
+        "str",
+        "float"
+    ],
+    "z": [
+        "int",
+        "str",
+        "float"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "concatenate": [
+        "function"
+    ],
+    "kwargs": [
+        "dict",
+        "Mapping[str, str]",
+        "Dict[str, Any]"
+    ],
+    "result": [
+        "str"
+    ],
+    "arg": [
+        "str"
+    ],
+    "c": [
+        "str"
+    ]
+}
