@@ -8,7 +8,7 @@ For the following Python code, infer the type of all variables \n
 '''
 
     SourceCode = ""
-    with open(filepath, 'r') as src:
+    with open(filepath, 'r', encoding='utf-8') as src:
         SourceCode = src.read()
 
     llamaPrompt += SourceCode

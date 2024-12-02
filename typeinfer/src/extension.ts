@@ -36,7 +36,7 @@ export function activate(context: vscode.ExtensionContext) {
 
 				const pythonPath = 'python';
 				const InferPath = path.join(context.extensionPath, 'Infer.py');
-				
+
 				const result = await new Promise<string>((resolve, reject) => {
 					cp.exec(
 						`${pythonPath} "${InferPath}" "${filePath}"`,
@@ -58,13 +58,13 @@ export function activate(context: vscode.ExtensionContext) {
 				try {
 					const typeInfo = JSON.parse(result);
 					typeCache[filePath] = typeInfo;
-					
+
 					// 创建新文档显示结果
 					const resultDoc = await vscode.workspace.openTextDocument({
 						content: result,
 						language: 'json'
 					});
-					
+
 					await vscode.window.showTextDocument(resultDoc, {
 						viewColumn: vscode.ViewColumn.Beside
 					});
@@ -96,11 +96,16 @@ export function activate(context: vscode.ExtensionContext) {
 		}
 
 		const filePath = editor.document.uri.fsPath;
-		
-		// 检查缓存中是否有该文件的类型信息
-		if (typeCache[filePath] && typeCache[filePath][selectedText]) {
-			// 如果缓存中有结果，直接使用缓存
-			const varType = typeCache[filePath][selectedText];
+		function findKey(input:any,name:string):string|undefined{
+			if(input.variables && input.variables[name]){
+				return Object.keys(input.variables[name][0])[0];
+			}
+			return undefined;
+		}
+	
+		// 如果缓存中有结果，直接使用缓存
+		if (typeCache[filePath]) {
+			const varType = findKey(typeCache[filePath],selectedText);
 			vscode.window.showInformationMessage(
 				`Variable "${selectedText}" is of type: ${varType} (from cache)`
 			);
@@ -112,7 +117,7 @@ export function activate(context: vscode.ExtensionContext) {
 			await editor.document.save();
 			const pythonPath = 'python';
 			const InferPath = path.join(context.extensionPath, 'Infer.py');
-			
+
 			const result = await new Promise<string>((resolve, reject) => {
 				cp.exec(
 					`${pythonPath} "${InferPath}" "${filePath}"`,
@@ -134,12 +139,14 @@ export function activate(context: vscode.ExtensionContext) {
 			try {
 				const typeInfo = JSON.parse(result);
 				typeCache[filePath] = typeInfo;
-				
+
 				// 检查推断结果中是否包含选中的变量
-				if (typeInfo[selectedText]) {
+				if (typeCache[filePath]) {
+					const varType = findKey(typeCache[filePath],selectedText);
 					vscode.window.showInformationMessage(
-						`Variable "${selectedText}" is of type: ${typeInfo[selectedText]}`
+						`Variable "${selectedText}" is of type: ${varType} (from cache)`
 					);
+					return;
 				} else {
 					vscode.window.showWarningMessage(
 						`Could not infer type for variable "${selectedText}"`
@@ -163,4 +170,4 @@ export function activate(context: vscode.ExtensionContext) {
 	console.log('Extension "typeinfer" is now fully activated!');
 }
 
-export function deactivate() {}
+export function deactivate() { }

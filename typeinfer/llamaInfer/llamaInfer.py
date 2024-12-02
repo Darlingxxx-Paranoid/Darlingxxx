@@ -3,6 +3,7 @@ import json
 from llamaInfer import Prompt
 import sys
 
+
 def llamaInfer(filepath : str):
 
     llamaPrompt = Prompt.GetPrompt(filepath)
