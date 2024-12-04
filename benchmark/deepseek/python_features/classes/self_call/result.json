@@ -1,0 +1,17 @@
+{
+    "self": [
+        "MyClass",
+        "object",
+        "instancemethod"
+    ],
+    "a": [
+        "MyClass",
+        "object",
+        "instance"
+    ],
+    "b": [
+        "str",
+        "object",
+        "instance"
+    ]
+}

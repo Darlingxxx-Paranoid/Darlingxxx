@@ -1,0 +1,42 @@
+{
+    "a": [
+        "int",
+        "float",
+        "complex"
+    ],
+    "b": [
+        "int",
+        "float",
+        "complex"
+    ],
+    "c": [
+        "int",
+        "float",
+        "complex"
+    ],
+    "result": [
+        "int",
+        "float",
+        "complex"
+    ],
+    "nested": [
+        "ArithmeticOperation.Nested",
+        "NoneType",
+        "ArithmeticOperation.Nested2"
+    ],
+    "nested2": [
+        "ArithmeticOperation.Nested.Nested2",
+        "NoneType",
+        "ArithmeticOperation.Nested"
+    ],
+    "arith_op": [
+        "ArithmeticOperation",
+        "NoneType",
+        "ArithmeticOperation.Nested"
+    ],
+    "result1": [
+        "int",
+        "float",
+        "complex"
+    ]
+}

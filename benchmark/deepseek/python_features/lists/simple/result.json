@@ -1,0 +1,32 @@
+{
+    "a": [
+        "list",
+        "function",
+        "callable"
+    ],
+    "b": [
+        "list",
+        "function",
+        "callable"
+    ],
+    "c": [
+        "int",
+        "float",
+        "str"
+    ],
+    "d": [
+        "int",
+        "float",
+        "str"
+    ],
+    "e": [
+        "int",
+        "float",
+        "str"
+    ],
+    "f": [
+        "bool",
+        "int",
+        "float"
+    ]
+}

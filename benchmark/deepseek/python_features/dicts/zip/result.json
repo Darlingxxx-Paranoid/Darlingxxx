@@ -1,0 +1,17 @@
+{
+    "keys": [
+        "list",
+        "iterable",
+        "sequence"
+    ],
+    "values": [
+        "list",
+        "iterable",
+        "sequence"
+    ],
+    "my_dict": [
+        "dict",
+        "mapping",
+        "container"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "a": [
+        "int",
+        "float",
+        "str"
+    ],
+    "b": [
+        "int",
+        "float",
+        "str"
+    ],
+    "c": [
+        "int",
+        "float",
+        "str"
+    ]
+}

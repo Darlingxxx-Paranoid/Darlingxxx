@@ -1,0 +1,12 @@
+{
+    "a": [
+        "MyClass",
+        "object",
+        "instance"
+    ],
+    "d": [
+        "str",
+        "object",
+        "instance"
+    ]
+}

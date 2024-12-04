@@ -1,0 +1,27 @@
+{
+    "param_func": [
+        "function",
+        "callable",
+        "object"
+    ],
+    "func": [
+        "function",
+        "callable",
+        "object"
+    ],
+    "a": [
+        "function",
+        "callable",
+        "object"
+    ],
+    "b": [
+        "function",
+        "callable",
+        "object"
+    ],
+    "c": [
+        "str",
+        "object",
+        "callable"
+    ]
+}

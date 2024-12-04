@@ -1,0 +1,12 @@
+{
+    "d": [
+        "dict",
+        "object",
+        "mapping"
+    ],
+    "e": [
+        "str",
+        "object",
+        "string"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "self": [
+        "B",
+        "A"
+    ],
+    "smth": [
+        "function",
+        "method"
+    ],
+    "func": [
+        "function",
+        "method"
+    ],
+    "a": [
+        "A"
+    ],
+    "b": [
+        "int",
+        "str"
+    ]
+}

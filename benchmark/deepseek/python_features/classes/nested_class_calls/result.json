@@ -1,0 +1,17 @@
+{
+    "a": [
+        "A",
+        "object",
+        "instance"
+    ],
+    "b": [
+        "str",
+        "object",
+        "instance"
+    ],
+    "self": [
+        "A",
+        "B",
+        "C"
+    ]
+}

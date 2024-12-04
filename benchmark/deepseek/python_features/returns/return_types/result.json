@@ -1,0 +1,27 @@
+{
+    "a": [
+        "tuple",
+        "list",
+        "set"
+    ],
+    "b": [
+        "dict",
+        "list",
+        "tuple"
+    ],
+    "c": [
+        "namedtuple",
+        "tuple",
+        "object"
+    ],
+    "d": [
+        "set",
+        "list",
+        "tuple"
+    ],
+    "e": [
+        "list",
+        "tuple",
+        "set"
+    ]
+}

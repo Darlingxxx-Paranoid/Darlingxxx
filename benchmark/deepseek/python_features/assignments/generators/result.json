@@ -1,0 +1,17 @@
+{
+    "x": [
+        "int",
+        "float",
+        "complex"
+    ],
+    "y": [
+        "int",
+        "float",
+        "complex"
+    ],
+    "z": [
+        "int",
+        "float",
+        "complex"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "arith_op1": [
+        "ArithmeticOperation",
+        "object",
+        "instance"
+    ],
+    "arith_op2": [
+        "ArithmeticOperation",
+        "object",
+        "instance"
+    ],
+    "result1": [
+        "int",
+        "float",
+        "complex"
+    ],
+    "result2": [
+        "str",
+        "bytes",
+        "bytearray"
+    ]
+}

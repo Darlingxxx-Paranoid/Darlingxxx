@@ -1,0 +1,32 @@
+{
+    "c": [
+        "Cls",
+        "list",
+        "tuple"
+    ],
+    "output_list": [
+        "list",
+        "tuple",
+        "set"
+    ],
+    "max": [
+        "int",
+        "float",
+        "NoneType"
+    ],
+    "n": [
+        "int",
+        "float",
+        "NoneType"
+    ],
+    "result": [
+        "int",
+        "float",
+        "NoneType"
+    ],
+    "a": [
+        "list",
+        "tuple",
+        "set"
+    ]
+}

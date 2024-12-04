@@ -1,0 +1,17 @@
+{
+    "dict1": [
+        "dict",
+        "object",
+        "mapping"
+    ],
+    "dict2": [
+        "dict",
+        "object",
+        "mapping"
+    ],
+    "merged_dict": [
+        "dict",
+        "object",
+        "mapping"
+    ]
+}

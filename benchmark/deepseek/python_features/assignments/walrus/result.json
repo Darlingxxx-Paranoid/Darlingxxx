@@ -1,0 +1,27 @@
+{
+    "string": [
+        "str",
+        "bytes",
+        "bytearray"
+    ],
+    "words": [
+        "list",
+        "tuple",
+        "set"
+    ],
+    "word_count": [
+        "int",
+        "float",
+        "complex"
+    ],
+    "word": [
+        "str",
+        "bytes",
+        "bytearray"
+    ],
+    "a": [
+        "int",
+        "float",
+        "complex"
+    ]
+}

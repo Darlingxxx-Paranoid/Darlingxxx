@@ -1,0 +1,17 @@
+{
+    "a": [
+        "MyClass",
+        "object",
+        "instance"
+    ],
+    "b": [
+        "function",
+        "method",
+        "callable"
+    ],
+    "c": [
+        "str",
+        "string",
+        "text"
+    ]
+}

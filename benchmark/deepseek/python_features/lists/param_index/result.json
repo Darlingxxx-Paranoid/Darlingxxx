@@ -1,0 +1,17 @@
+{
+    "key": [
+        "int",
+        "str",
+        "slice"
+    ],
+    "ls": [
+        "list",
+        "tuple",
+        "dict"
+    ],
+    "a": [
+        "int",
+        "str",
+        "NoneType"
+    ]
+}

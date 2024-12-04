@@ -1,0 +1,12 @@
+{
+    "a": [
+        "str",
+        "int",
+        "list"
+    ],
+    "b": [
+        "list",
+        "str",
+        "tuple"
+    ]
+}

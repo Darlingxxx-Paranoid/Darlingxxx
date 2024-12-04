@@ -1,0 +1,17 @@
+{
+    "x": [
+        "function",
+        "lambda",
+        "callable"
+    ],
+    "a": [
+        "int",
+        "integer",
+        "number"
+    ],
+    "b": [
+        "str",
+        "string",
+        "text"
+    ]
+}

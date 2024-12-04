@@ -1,0 +1,22 @@
+{
+    "n": [
+        "int",
+        "float",
+        "str"
+    ],
+    "num": [
+        "int",
+        "float",
+        "str"
+    ],
+    "cur": [
+        "int",
+        "float",
+        "str"
+    ],
+    "output_list": [
+        "list",
+        "tuple",
+        "set"
+    ]
+}

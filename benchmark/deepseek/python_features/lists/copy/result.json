@@ -1,0 +1,12 @@
+{
+    "my_list": [
+        "list",
+        "object",
+        "iterable"
+    ],
+    "copy_of_my_list": [
+        "list",
+        "object",
+        "iterable"
+    ]
+}

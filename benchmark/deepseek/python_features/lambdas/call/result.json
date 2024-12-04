@@ -1,0 +1,12 @@
+{
+    "x": [
+        "function",
+        "lambda",
+        "callable"
+    ],
+    "a": [
+        "int",
+        "float",
+        "complex"
+    ]
+}

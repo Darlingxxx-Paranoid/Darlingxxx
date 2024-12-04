@@ -1,0 +1,12 @@
+{
+    "x": [
+        "int",
+        "float",
+        "complex"
+    ],
+    "result": [
+        "int",
+        "float",
+        "complex"
+    ]
+}

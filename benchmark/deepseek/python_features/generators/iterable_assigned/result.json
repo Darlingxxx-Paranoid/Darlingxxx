@@ -1,0 +1,12 @@
+{
+    "c": [
+        "Cls",
+        "iter",
+        "object"
+    ],
+    "output_list": [
+        "list",
+        "iterable",
+        "object"
+    ]
+}

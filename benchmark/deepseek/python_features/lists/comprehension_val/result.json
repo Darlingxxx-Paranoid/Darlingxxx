@@ -1,0 +1,17 @@
+{
+    "func": [
+        "function",
+        "callable",
+        "object"
+    ],
+    "a": [
+        "int",
+        "float",
+        "str"
+    ],
+    "ls": [
+        "list",
+        "iterable",
+        "object"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "d": [
+        "dict",
+        "object",
+        "mapping"
+    ],
+    "key": [
+        "str",
+        "object",
+        "hashable"
+    ],
+    "func2": [
+        "function",
+        "callable",
+        "object"
+    ],
+    "e": [
+        "str",
+        "object",
+        "callable"
+    ]
+}

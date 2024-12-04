@@ -1,0 +1,62 @@
+{
+    "a": [
+        "function",
+        "str",
+        "int"
+    ],
+    "b": [
+        "function",
+        "int",
+        "float"
+    ],
+    "c": [
+        "function",
+        "float",
+        "list"
+    ],
+    "d": [
+        "function",
+        "list",
+        "dict"
+    ],
+    "e": [
+        "function",
+        "NoneType",
+        "dict"
+    ],
+    "f": [
+        "function",
+        "dict",
+        "NoneType"
+    ],
+    "i": [
+        "str",
+        "int",
+        "float"
+    ],
+    "j": [
+        "int",
+        "float",
+        "list"
+    ],
+    "k": [
+        "float",
+        "list",
+        "dict"
+    ],
+    "h": [
+        "list",
+        "dict",
+        "NoneType"
+    ],
+    "l": [
+        "NoneType",
+        "dict",
+        "list"
+    ],
+    "m": [
+        "dict",
+        "NoneType",
+        "list"
+    ]
+}

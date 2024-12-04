@@ -1,0 +1,37 @@
+{
+    "a": [
+        "function",
+        "callable",
+        "object"
+    ],
+    "b": [
+        "list",
+        "iterable",
+        "object"
+    ],
+    "c": [
+        "function",
+        "callable",
+        "object"
+    ],
+    "d": [
+        "str",
+        "object",
+        "callable"
+    ],
+    "e": [
+        "int",
+        "object",
+        "callable"
+    ],
+    "f": [
+        "float",
+        "object",
+        "callable"
+    ],
+    "g": [
+        "list",
+        "iterable",
+        "object"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "x": [
+        "int",
+        "nonlocal",
+        "variable"
+    ],
+    "inner": [
+        "function",
+        "inner function",
+        "callable"
+    ],
+    "outer": [
+        "function",
+        "outer function",
+        "callable"
+    ],
+    "a": [
+        "int",
+        "result",
+        "variable"
+    ]
+}

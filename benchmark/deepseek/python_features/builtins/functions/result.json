@@ -1,0 +1,42 @@
+{
+    "my_list": [
+        "list",
+        "object",
+        "iterable"
+    ],
+    "length": [
+        "int",
+        "integer",
+        "number"
+    ],
+    "total": [
+        "int",
+        "integer",
+        "number"
+    ],
+    "largest": [
+        "int",
+        "integer",
+        "number"
+    ],
+    "smallest": [
+        "int",
+        "integer",
+        "number"
+    ],
+    "sorted_list": [
+        "list",
+        "object",
+        "iterable"
+    ],
+    "any_list": [
+        "bool",
+        "boolean",
+        "truthy"
+    ],
+    "all_list": [
+        "bool",
+        "boolean",
+        "truthy"
+    ]
+}

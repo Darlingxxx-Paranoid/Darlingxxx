@@ -1,0 +1,22 @@
+{
+    "f": [
+        "function",
+        "callable",
+        "object"
+    ],
+    "wrapper": [
+        "function",
+        "callable",
+        "object"
+    ],
+    "func": [
+        "function",
+        "callable",
+        "object"
+    ],
+    "a": [
+        "str",
+        "object",
+        "callable"
+    ]
+}

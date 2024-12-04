@@ -1,0 +1,27 @@
+{
+    "x": [
+        "int",
+        "float",
+        "NoneType"
+    ],
+    "y": [
+        "int",
+        "float",
+        "NoneType"
+    ],
+    "result1": [
+        "int",
+        "float",
+        "NoneType"
+    ],
+    "result2": [
+        "int",
+        "float",
+        "NoneType"
+    ],
+    "result3": [
+        "int",
+        "float",
+        "NoneType"
+    ]
+}

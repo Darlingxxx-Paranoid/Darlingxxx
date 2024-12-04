@@ -1,0 +1,17 @@
+{
+    "ls": [
+        "list",
+        "function",
+        "callable"
+    ],
+    "ls2": [
+        "list",
+        "function",
+        "callable"
+    ],
+    "c": [
+        "float",
+        "int",
+        "str"
+    ]
+}

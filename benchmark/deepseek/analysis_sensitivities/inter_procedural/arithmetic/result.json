@@ -1,0 +1,27 @@
+{
+    "a": [
+        "int",
+        "float",
+        "str"
+    ],
+    "b": [
+        "int",
+        "float",
+        "str"
+    ],
+    "result": [
+        "int",
+        "float",
+        "str"
+    ],
+    "arithmetic_op": [
+        "function",
+        "method",
+        "callable"
+    ],
+    "add": [
+        "function",
+        "method",
+        "callable"
+    ]
+}

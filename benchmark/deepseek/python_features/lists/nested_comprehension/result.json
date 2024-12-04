@@ -1,0 +1,17 @@
+{
+    "a": [
+        "int",
+        "float",
+        "complex"
+    ],
+    "b": [
+        "int",
+        "float",
+        "complex"
+    ],
+    "c": [
+        "list",
+        "tuple",
+        "set"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "ls": [
+        "list",
+        "list of lists",
+        "list of functions"
+    ],
+    "a": [
+        "list",
+        "list of functions",
+        "list of lists"
+    ],
+    "b": [
+        "function",
+        "callable",
+        "object"
+    ],
+    "c": [
+        "int",
+        "object",
+        "callable"
+    ]
+}

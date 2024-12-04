@@ -1,0 +1,37 @@
+{
+    "a": [
+        "int",
+        "float",
+        "str"
+    ],
+    "b": [
+        "int",
+        "float",
+        "str"
+    ],
+    "result": [
+        "int",
+        "float",
+        "str"
+    ],
+    "x": [
+        "int",
+        "float",
+        "str"
+    ],
+    "integers": [
+        "tuple",
+        "list",
+        "set"
+    ],
+    "my_sum": [
+        "function",
+        "method",
+        "callable"
+    ],
+    "func": [
+        "function",
+        "method",
+        "callable"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "a": [
+        "function",
+        "callable",
+        "decorator"
+    ],
+    "f": [
+        "function",
+        "callable",
+        "object"
+    ],
+    "wrapper": [
+        "function",
+        "callable",
+        "object"
+    ],
+    "result": [
+        "int",
+        "str",
+        "float"
+    ],
+    "func": [
+        "function",
+        "callable",
+        "object"
+    ],
+    "c": [
+        "str",
+        "int",
+        "float"
+    ]
+}

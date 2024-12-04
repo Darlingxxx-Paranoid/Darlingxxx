@@ -1,0 +1,25 @@
+{
+    "a": [
+        "int",
+        "float",
+        "complex"
+    ],
+    "b": [
+        "int",
+        "float",
+        "complex"
+    ],
+    "result": [
+        "int",
+        "float",
+        "complex"
+    ],
+    "arith_op": [
+        "ArithmeticOperation"
+    ],
+    "result1": [
+        "int",
+        "float",
+        "complex"
+    ]
+}

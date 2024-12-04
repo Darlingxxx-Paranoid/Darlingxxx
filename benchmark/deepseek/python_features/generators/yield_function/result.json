@@ -1,0 +1,22 @@
+{
+    "n": [
+        "int",
+        "float",
+        "NoneType"
+    ],
+    "num": [
+        "int",
+        "float",
+        "NoneType"
+    ],
+    "i": [
+        "function",
+        "NoneType",
+        "int"
+    ],
+    "a": [
+        "int",
+        "float",
+        "NoneType"
+    ]
+}

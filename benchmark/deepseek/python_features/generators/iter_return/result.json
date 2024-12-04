@@ -1,0 +1,12 @@
+{
+    "output_list": [
+        "list",
+        "iterable",
+        "object"
+    ],
+    "a": [
+        "int",
+        "float",
+        "NoneType"
+    ]
+}

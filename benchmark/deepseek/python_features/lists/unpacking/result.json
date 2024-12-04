@@ -1,0 +1,22 @@
+{
+    "a": [
+        "list",
+        "iterable",
+        "object"
+    ],
+    "b": [
+        "int",
+        "float",
+        "str"
+    ],
+    "c": [
+        "int",
+        "float",
+        "str"
+    ],
+    "d": [
+        "int",
+        "float",
+        "str"
+    ]
+}

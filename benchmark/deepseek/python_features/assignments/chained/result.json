@@ -1,0 +1,22 @@
+{
+    "a": [
+        "function",
+        "int",
+        "NoneType"
+    ],
+    "b": [
+        "function",
+        "int",
+        "NoneType"
+    ],
+    "c": [
+        "str",
+        "int",
+        "NoneType"
+    ],
+    "d": [
+        "int",
+        "str",
+        "NoneType"
+    ]
+}

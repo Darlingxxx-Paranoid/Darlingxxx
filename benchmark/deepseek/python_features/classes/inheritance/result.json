@@ -1,0 +1,17 @@
+{
+    "a": [
+        "MySubClass",
+        "MyClass",
+        "object"
+    ],
+    "b": [
+        "str",
+        "object",
+        "Any"
+    ],
+    "c": [
+        "int",
+        "object",
+        "Any"
+    ]
+}

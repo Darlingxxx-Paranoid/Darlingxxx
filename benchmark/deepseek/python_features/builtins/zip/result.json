@@ -1,0 +1,22 @@
+{
+    "names": [
+        "list",
+        "iterable",
+        "sequence"
+    ],
+    "ages": [
+        "list",
+        "iterable",
+        "sequence"
+    ],
+    "combined": [
+        "zip object",
+        "iterator",
+        "iterable"
+    ],
+    "result": [
+        "list",
+        "iterable",
+        "sequence"
+    ]
+}

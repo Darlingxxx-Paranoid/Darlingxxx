@@ -1,0 +1,12 @@
+{
+    "a": [
+        "MyClass",
+        "NewClass",
+        "object"
+    ],
+    "b": [
+        "str",
+        "int",
+        "object"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "d": [
+        "dict",
+        "object",
+        "mapping"
+    ],
+    "b": [
+        "dict",
+        "object",
+        "mapping"
+    ],
+    "c": [
+        "str",
+        "object",
+        "sequence"
+    ]
+}

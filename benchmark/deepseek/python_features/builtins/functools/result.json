@@ -1,0 +1,22 @@
+{
+    "x": [
+        "int",
+        "float",
+        "complex"
+    ],
+    "y": [
+        "int",
+        "float",
+        "complex"
+    ],
+    "numbers": [
+        "list",
+        "tuple",
+        "set"
+    ],
+    "product": [
+        "int",
+        "float",
+        "complex"
+    ]
+}

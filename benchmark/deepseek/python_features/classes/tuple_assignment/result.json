@@ -1,0 +1,42 @@
+{
+    "a": [
+        "MyClass",
+        "object",
+        "instance"
+    ],
+    "b": [
+        "MyClass2",
+        "object",
+        "instance"
+    ],
+    "c": [
+        "function",
+        "method",
+        "callable"
+    ],
+    "d": [
+        "function",
+        "method",
+        "callable"
+    ],
+    "e": [
+        "function",
+        "method",
+        "callable"
+    ],
+    "f": [
+        "int",
+        "integer",
+        "number"
+    ],
+    "g": [
+        "float",
+        "number",
+        "decimal"
+    ],
+    "h": [
+        "str",
+        "string",
+        "text"
+    ]
+}

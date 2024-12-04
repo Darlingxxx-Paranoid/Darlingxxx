@@ -1,0 +1,32 @@
+{
+    "arith_op": [
+        "ArithmeticOperation",
+        "object",
+        "instance"
+    ],
+    "result1": [
+        "int",
+        "float",
+        "complex"
+    ],
+    "a": [
+        "int",
+        "float",
+        "complex"
+    ],
+    "b": [
+        "int",
+        "float",
+        "complex"
+    ],
+    "result": [
+        "int",
+        "float",
+        "complex"
+    ],
+    "nested": [
+        "ArithmeticOperation.Nested",
+        "object",
+        "instance"
+    ]
+}

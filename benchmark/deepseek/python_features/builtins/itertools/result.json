@@ -1,0 +1,72 @@
+{
+    "data": [
+        "list",
+        "iterable",
+        "sequence"
+    ],
+    "sorted_data": [
+        "list",
+        "iterable",
+        "sequence"
+    ],
+    "grouped_data": [
+        "itertools.groupby",
+        "iterable",
+        "generator"
+    ],
+    "city": [
+        "str",
+        "unicode",
+        "string"
+    ],
+    "group": [
+        "list",
+        "iterable",
+        "sequence"
+    ],
+    "counter": [
+        "itertools.count",
+        "iterable",
+        "generator"
+    ],
+    "cycler": [
+        "itertools.cycle",
+        "iterable",
+        "generator"
+    ],
+    "repeater": [
+        "itertools.repeat",
+        "iterable",
+        "generator"
+    ],
+    "chained": [
+        "itertools.chain",
+        "iterable",
+        "generator"
+    ],
+    "selector": [
+        "list",
+        "iterable",
+        "sequence"
+    ],
+    "compressed": [
+        "itertools.compress",
+        "iterable",
+        "generator"
+    ],
+    "perms": [
+        "itertools.permutations",
+        "iterable",
+        "generator"
+    ],
+    "combs": [
+        "itertools.combinations",
+        "iterable",
+        "generator"
+    ],
+    "cartesian": [
+        "itertools.product",
+        "iterable",
+        "generator"
+    ]
+}

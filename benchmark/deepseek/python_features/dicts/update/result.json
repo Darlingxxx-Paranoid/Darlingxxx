@@ -1,0 +1,12 @@
+{
+    "d": [
+        "dict",
+        "mapping",
+        "container"
+    ],
+    "e": [
+        "str",
+        "object",
+        "callable"
+    ]
+}

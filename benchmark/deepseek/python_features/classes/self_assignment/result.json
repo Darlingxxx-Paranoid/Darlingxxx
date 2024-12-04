@@ -1,0 +1,12 @@
+{
+    "a": [
+        "A",
+        "object",
+        "instance"
+    ],
+    "b": [
+        "str",
+        "object",
+        "instance"
+    ]
+}

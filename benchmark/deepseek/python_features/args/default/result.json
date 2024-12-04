@@ -1,0 +1,17 @@
+{
+    "a": [
+        "function",
+        "callable",
+        "object"
+    ],
+    "b": [
+        "str",
+        "object",
+        "callable"
+    ],
+    "c": [
+        "int",
+        "object",
+        "callable"
+    ]
+}

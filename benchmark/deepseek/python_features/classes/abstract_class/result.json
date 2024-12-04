@@ -1,0 +1,12 @@
+{
+    "a": [
+        "Rectangle",
+        "Shape",
+        "object"
+    ],
+    "b": [
+        "int",
+        "float",
+        "complex"
+    ]
+}

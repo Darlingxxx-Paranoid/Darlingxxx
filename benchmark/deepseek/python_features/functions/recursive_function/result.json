@@ -1,0 +1,17 @@
+{
+    "x": [
+        "int",
+        "float",
+        "complex"
+    ],
+    "a": [
+        "int",
+        "float",
+        "complex"
+    ],
+    "recursive_func": [
+        "function",
+        "callable",
+        "object"
+    ]
+}

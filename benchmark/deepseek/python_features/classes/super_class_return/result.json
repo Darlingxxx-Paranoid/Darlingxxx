@@ -1,0 +1,17 @@
+{
+    "b": [
+        "B",
+        "A",
+        "object"
+    ],
+    "fn": [
+        "method",
+        "function",
+        "callable"
+    ],
+    "c": [
+        "str",
+        "object",
+        "Any"
+    ]
+}

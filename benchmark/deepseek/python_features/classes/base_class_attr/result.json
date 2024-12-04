@@ -1,0 +1,17 @@
+{
+    "c": [
+        "C",
+        "A.B",
+        "object"
+    ],
+    "d": [
+        "str",
+        "object",
+        "NoneType"
+    ],
+    "e": [
+        "int",
+        "object",
+        "NoneType"
+    ]
+}

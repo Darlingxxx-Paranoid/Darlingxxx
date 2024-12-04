@@ -1,0 +1,22 @@
+{
+    "b": [
+        "B",
+        "A",
+        "object"
+    ],
+    "d": [
+        "str",
+        "object",
+        "Any"
+    ],
+    "c": [
+        "C",
+        "A",
+        "object"
+    ],
+    "e": [
+        "int",
+        "object",
+        "Any"
+    ]
+}

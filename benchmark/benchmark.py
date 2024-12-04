@@ -32,7 +32,7 @@ def judge_one_file(filedir:str, filename:str):
                     result += "pass"
                 else:
                     result += "fail"
-                    local_var_error.append(os.path.join(filedir, filename))
+                    local_var_error.append(vartype)
             else:
                 result += "not found"
                 local_var_no_found += 1
@@ -48,7 +48,7 @@ def judge_one_file(filedir:str, filename:str):
                     result += "pass"
                 else:
                     result += "fail"
-                    local_var_error.append(os.path.join(filedir, filename))
+                    local_var_error.append(vartype)
             else:
                 result += "not found"
                 local_var_cor+=1

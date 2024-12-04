@@ -1,0 +1,22 @@
+{
+    "n": [
+        "int",
+        "float",
+        "complex"
+    ],
+    "gen": [
+        "generator",
+        "iterable",
+        "object"
+    ],
+    "a": [
+        "int",
+        "float",
+        "complex"
+    ],
+    "i": [
+        "int",
+        "float",
+        "complex"
+    ]
+}

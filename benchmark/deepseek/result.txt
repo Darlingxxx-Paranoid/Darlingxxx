@@ -1,0 +1,4 @@
+correct:404
+number of all variables:562
+number of no found:128
+['callable', 'callable', 'callable', 'callable', 'callable', 'callable', 'callable', 'callable', 'callable', 'callable', 'callable', 'callable', 'callable', 'callable', 'callable', 'Nonetype', 'itertools._grouper', 'zip', 'B', 'callable', 'callable', 'str', 'str', 'my_decorator.NewClass', 'callable', 'callable', 'int', 'callable', 'int', 'Point']
