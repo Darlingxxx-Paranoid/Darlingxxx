@@ -7,10 +7,10 @@ import * as fs from 'fs';
 let typeCache: { [key: string]: { [key: string]: string } } = {};
 
 export function activate(context: vscode.ExtensionContext) {
-	console.log('Extension "typeinfer" is activating...');
+	console.log('Extension "LLMinfer" is activating...');
 
 	// 添加类型推断命令
-	let inferTypes = vscode.commands.registerCommand('typeinfer.inferTypes', async () => {
+	const inferTypes = vscode.commands.registerCommand('llminfer.inferTypes', async () => {
 		const editor = vscode.window.activeTextEditor;
 		if (!editor) {
 			vscode.window.showWarningMessage('No active editor!');
@@ -81,7 +81,7 @@ export function activate(context: vscode.ExtensionContext) {
 	});
 
 	// 添加变量类型推断命令
-	let inferSelectedVariable = vscode.commands.registerCommand('typeinfer.inferSelectedVariable', async () => {
+	const inferSelectedVariable = vscode.commands.registerCommand('llminfer.inferSelectedVariable', async () => {
 		const editor = vscode.window.activeTextEditor;
 		if (!editor) {
 			vscode.window.showWarningMessage('No active editor!');
@@ -178,7 +178,7 @@ export function activate(context: vscode.ExtensionContext) {
 	context.subscriptions.push(inferTypes);
 	context.subscriptions.push(inferSelectedVariable);
 
-	console.log('Extension "typeinfer" is now fully activated!');
+	console.log('Extension "LLMinfer" is now fully activated!');
 }
 
 export function deactivate() { }

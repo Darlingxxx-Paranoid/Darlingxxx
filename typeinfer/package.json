@@ -1,6 +1,6 @@
 {
-  "name": "typeinfer",
-  "displayName": "typeinfer",
+  "name": "llminfer",
+  "displayName": "llminfer",
   "description": "",
   "version": "0.0.1",
   "engines": {
@@ -14,12 +14,12 @@
   "contributes": {
     "commands": [
       {
-        "command": "typeinfer.inferTypes",
-        "title": "TypeInfer: Infer Python Types",
+        "command": "llminfer.inferTypes",
+        "title": "LLMinfer: Infer Python Types",
         "icon": "$(symbol-class)"
       },
       {
-        "command": "typeinfer.inferSelectedVariable",
+        "command": "llminfer.inferSelectedVariable",
         "title": "Infer Variable Type"
       }
     ],
@@ -27,14 +27,14 @@
       "editor/context": [
         {
           "when": "editorHasSelection && editorLangId == python",
-          "command": "typeinfer.inferSelectedVariable",
+          "command": "llminfer.inferSelectedVariable",
           "group": "navigation"
         }
       ],
       "editor/title": [
         {
           "when": "editorLangId == python",
-          "command": "typeinfer.inferTypes",
+          "command": "llminfer.inferTypes",
           "group": "1_run"
         }
       ]
