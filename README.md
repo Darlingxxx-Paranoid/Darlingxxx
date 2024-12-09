@@ -1,6 +1,6 @@
-# TypeInfer
+# LLMinfer
 
-TypeInfer is a VS Code extension that helps Python developers by automatically inferring variable types in Python code using LLM (Large Language Model) technology.
+LLMinfer is a VS Code extension that helps Python developers by automatically inferring variable types in Python code using LLM (Large Language Model) technology.
 
 ## Features
 
